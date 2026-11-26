@@ -1,0 +1,5 @@
+<library path="smooth_goal_controller">
+  <class name="dianshu_controller::SmoothGoalController" type="dianshu_controller::SmoothGoalController" base_class_type="nav2_core::Controller">
+    <description>RPP path tracking with direction-latched final heading alignment.</description>
+  </class>
+</library>

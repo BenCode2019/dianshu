@@ -1,0 +1,78 @@
+正在读取软件包列表...
+正在分析软件包的依赖关系树...
+正在读取状态信息...
+下列软件包是自动安装的并且现在不需要了：
+  libasound2-dev libdbus-1-dev libdecor-0-dev libibus-1.0-dev libode-dev
+  libpulse-dev libpyside2-dev libpyside2-py3-5.15 libsdl2-dev libshiboken2-dev
+  libshiboken2-py3-5.15 libsndio-dev libxcursor-dev libxinerama-dev
+  libxkbcommon-dev libxv-dev libxxf86vm-dev pybind11-dev pydocstyle pyqt5-dev
+  python-pkg-resources python-setuptools python3-flake8 python3-mccabe
+  python3-pycodestyle python3-pydocstyle python3-pydot python3-pyflakes
+  python3-pykdl python3-pyqt5.sip python3-pyside2.qtcore python3-pyside2.qtgui
+  python3-pyside2.qtsvg python3-pyside2.qtwidgets python3-sip-dev
+  ros-humble-action-tutorials-cpp ros-humble-action-tutorials-interfaces
+  ros-humble-action-tutorials-py ros-humble-actionlib-msgs
+  ros-humble-ament-cmake-auto ros-humble-ament-cmake-copyright
+  ros-humble-ament-cmake-flake8 ros-humble-ament-cmake-lint-cmake
+  ros-humble-ament-cmake-pep257 ros-humble-ament-cmake-uncrustify
+  ros-humble-ament-cmake-xmllint ros-humble-ament-flake8
+  ros-humble-ament-lint-auto ros-humble-ament-lint-cmake
+  ros-humble-ament-lint-common ros-humble-ament-pep257
+  ros-humble-ament-uncrustify ros-humble-ament-xmllint
+  ros-humble-common-interfaces ros-humble-composition
+  ros-humble-demo-nodes-cpp ros-humble-demo-nodes-cpp-native
+  ros-humble-demo-nodes-py ros-humble-depthimage-to-laserscan
+  ros-humble-dummy-map-server ros-humble-dummy-robot-bringup
+  ros-humble-dummy-sensors ros-humble-example-interfaces
+  ros-humble-examples-rclcpp-minimal-action-client
+  ros-humble-examples-rclcpp-minimal-action-server
+  ros-humble-examples-rclcpp-minimal-client
+  ros-humble-examples-rclcpp-minimal-composition
+  ros-humble-examples-rclcpp-minimal-publisher
+  ros-humble-examples-rclcpp-minimal-service
+  ros-humble-examples-rclcpp-minimal-subscriber
+  ros-humble-examples-rclcpp-minimal-timer
+  ros-humble-examples-rclcpp-multithreaded-executor
+  ros-humble-examples-rclpy-executors
+  ros-humble-examples-rclpy-minimal-action-client
+  ros-humble-examples-rclpy-minimal-action-server
+  ros-humble-examples-rclpy-minimal-client
+  ros-humble-examples-rclpy-minimal-publisher
+  ros-humble-examples-rclpy-minimal-service
+  ros-humble-examples-rclpy-minimal-subscriber ros-humble-image-geometry
+  ros-humble-image-tools ros-humble-intra-process-demo
+  ros-humble-joint-state-publisher ros-humble-joy ros-humble-keyboard-handler
+  ros-humble-launch-testing-ros ros-humble-lifecycle ros-humble-logging-demo
+  ros-humble-pendulum-control ros-humble-pendulum-msgs
+  ros-humble-pybind11-vendor ros-humble-python-orocos-kdl-vendor
+  ros-humble-quality-of-service-demo-cpp ros-humble-quality-of-service-demo-py
+  ros-humble-ros-core ros-humble-ros2action ros-humble-ros2bag
+  ros-humble-ros2cli-common-extensions ros-humble-ros2component
+  ros-humble-ros2doctor ros-humble-ros2interface ros-humble-ros2launch
+  ros-humble-ros2lifecycle ros-humble-ros2multicast ros-humble-rosbag2
+  ros-humble-rosbag2-compression ros-humble-rosbag2-compression-zstd
+  ros-humble-rosbag2-interfaces ros-humble-rosbag2-py
+  ros-humble-rosbag2-storage-default-plugins ros-humble-rosbag2-transport
+  ros-humble-rttest ros-humble-rviz2 ros-humble-sdl2-vendor
+  ros-humble-shape-msgs ros-humble-sqlite3-vendor ros-humble-sros2
+  ros-humble-sros2-cmake ros-humble-stereo-msgs ros-humble-tango-icons-vendor
+  ros-humble-teleop-twist-joy ros-humble-teleop-twist-keyboard
+  ros-humble-tf2-bullet ros-humble-tf2-eigen-kdl ros-humble-tf2-kdl
+  ros-humble-tlsf ros-humble-tlsf-cpp ros-humble-topic-monitor
+  ros-humble-turtlesim ros-humble-uncrustify-vendor ros-humble-zstd-vendor
+  shiboken2 sip-dev tango-icon-theme uncrustify
+使用'sudo apt autoremove'来卸载它(它们)。
+下列软件包将被升级：
+  ros-humble-diagnostic-updater
+升级了 1 个软件包，新安装了 0 个软件包，要卸载 0 个软件包，有 847 个软件包未被升级。
+需要下载 110 kB 的归档。
+解压缩后会消耗 80.9 kB 的额外空间。
+获取:1 http://mirrors.tuna.tsinghua.edu.cn/ros2/ubuntu jammy/main arm64 ros-humble-diagnostic-updater arm64 4.0.7-1jammy.20260908.025324 [110 kB]
+debconf: 无法初始化前端界面：Dialog
+debconf: (对话框界面将不能在哑终端上运行，例如 Emacs shell 缓存，或者没有控制终端。)
+debconf: 返回前端界面：Readline
+已下载 110 kB，耗时 0秒 (516 kB/s)
+(正在读取数据库 ... (正在读取数据库 ... 5%(正在读取数据库 ... 10%(正在读取数据库 ... 15%(正在读取数据库 ... 20%(正在读取数据库 ... 25%(正在读取数据库 ... 30%(正在读取数据库 ... 35%(正在读取数据库 ... 40%(正在读取数据库 ... 45%(正在读取数据库 ... 50%(正在读取数据库 ... 55%(正在读取数据库 ... 60%(正在读取数据库 ... 65%(正在读取数据库 ... 70%(正在读取数据库 ... 75%(正在读取数据库 ... 80%(正在读取数据库 ... 85%(正在读取数据库 ... 90%(正在读取数据库 ... 95%(正在读取数据库 ... 100%(正在读取数据库 ... 系统当前共安装有 287906 个文件和目录。)
+准备解压 .../ros-humble-diagnostic-updater_4.0.7-1jammy.20260908.025324_arm64.deb  ...
+正在解压 ros-humble-diagnostic-updater (4.0.7-1jammy.20260908.025324) 并覆盖 (4.0.6-1jammy.20250721.215840) ...
+正在设置 ros-humble-diagnostic-updater (4.0.7-1jammy.20260908.025324) ...

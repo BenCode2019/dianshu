@@ -1,0 +1,6 @@
+stationary_before 0 5
+ccw 0.185302018885184 33.908887
+stationary_middle 0 4
+cw -0.185302018885184 33.908887
+stationary_after 0 4
+SAVED acceptance {'odom': 820, 'imu': 820, 'scan': 819, 'command': 1454}

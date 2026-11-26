@@ -1,0 +1,6 @@
+stationary_before 0 5
+ccw 0.15 10.0
+stationary_middle 0 4
+cw -0.15 10.0
+stationary_after 0 4
+SAVED baseline {'odom': 341, 'imu': 340, 'scan': 339, 'command': 595}

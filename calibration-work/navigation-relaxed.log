@@ -1,0 +1,737 @@
+[INFO] [launch]: All log files can be found below /home/orangepi/.ros/log/2026-11-07-22-08-55-170556-orangepi5ultra-5046
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [rviz2-1]: process started with pid [5048]
+[INFO] [sllidar_node-2]: process started with pid [5050]
+[INFO] [static_transform_publisher-3]: process started with pid [5052]
+[INFO] [dianshu_base-4]: process started with pid [5054]
+[INFO] [static_transform_publisher-5]: process started with pid [5056]
+[INFO] [static_transform_publisher-6]: process started with pid [5058]
+[static_transform_publisher-5] [INFO] [1794060535.341666767] [static_tf_pub_base_footprint]: Spinning until stopped - publishing transform
+[static_transform_publisher-5] translation: ('-0.025000', '0.000000', '-0.025000')
+[static_transform_publisher-5] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-5] from '/base_link' to '/base_footprint'
+[static_transform_publisher-3] [INFO] [1794060535.369778061] [static_tf_pub_laser]: Spinning until stopped - publishing transform
+[static_transform_publisher-3] translation: ('-0.035000', '0.000000', '0.130000')
+[static_transform_publisher-3] rotation: ('0.000000', '0.000000', '1.000000', '0.000000')
+[static_transform_publisher-3] from '/base_link' to '/laser'
+[sllidar_node-2] [INFO] [1794060535.374251579] [sllidar_node]: SLLidar running on ROS2 package SLLidar.ROS2 SDK Version:1.0.1, SLLIDAR SDK Version:2.1.0
+[static_transform_publisher-6] [INFO] [1794060535.376427380] [static_tf_pub_imu]: Spinning until stopped - publishing transform
+[static_transform_publisher-6] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-6] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-6] from 'base_link' to 'imu_link'
+[rviz2-1] [INFO] [1794060535.882642133] [rviz2]: Stereo is NOT SUPPORTED
+[rviz2-1] [INFO] [1794060535.883142042] [rviz2]: OpenGl version: 3 (GLSL 1.3)
+[sllidar_node-2] [INFO] [1794060535.885090638] [sllidar_node]: SLLidar S/N: 80FDE195C1E79ED9B5E29EF1042A4A7C
+[sllidar_node-2] [INFO] [1794060535.885206428] [sllidar_node]: Firmware Ver: 1.02
+[sllidar_node-2] [INFO] [1794060535.885222178] [sllidar_node]: Hardware Rev: 18
+[sllidar_node-2] [INFO] [1794060535.888010762] [sllidar_node]: SLLidar health status : 0
+[sllidar_node-2] [INFO] [1794060535.888134135] [sllidar_node]: SLLidar health status : OK.
+[rviz2-1] [INFO] [1794060535.910585429] [rviz2]: Stereo is NOT SUPPORTED
+[sllidar_node-2] [INFO] [1794060536.174138839] [sllidar_node]: current scan mode: Standard, sample rate: 5 Khz, max_distance: 16.0 m, scan frequency:10.0 Hz, 
+[dianshu_base-4] [INFO] [1794060536.381103041] [dianshu_base_node]: base_driver node start
+[dianshu_base-4] [INFO] [1794060536.382421938] [dianshu_base_node]: serial_port:/dev/serial/by-id/usb-1a86_USB_Serial-if00-port0
+[dianshu_base-4] [INFO] [1794060536.425240891] [dianshu_base_node]: base_driver init success
+[rviz2-1] [INFO] [1794060539.290926142] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060538.175 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060539.386153615] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060538.406 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060539.482980272] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060538.491 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060539.578348034] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060538.572 for reason 'discarding message because the queue is full'
+[INFO] [component_container_isolated-7]: process started with pid [5149]
+[rviz2-1] [INFO] [1794060539.674905195] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060538.652 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060539.802957934] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060538.736 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060539.898317821] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060538.818 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060539.994439822] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060538.903 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060540.090382451] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060538.991 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060540.186368537] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060539.082 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060540.314350569] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060539.174 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060540.410964021] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060539.270 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060540.506613529] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060539.368 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060540.602192454] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060539.465 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060540.698963987] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060539.569 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060540.794735660] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060539.668 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060540.890908119] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060539.773 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060540.986149216] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060539.874 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060541.082513005] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060539.977 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060541.210927572] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060540.079 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060541.307119572] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060540.180 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060541.402706456] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060540.284 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060541.498444629] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060540.383 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060541.594511214] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060540.485 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060541.690600257] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060540.586 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060541.786357097] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060540.685 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060541.882815384] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060540.784 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060541.978617848] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060540.883 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060542.078351296] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060540.984 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060542.202808005] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060541.082 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060542.298568011] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060541.182 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060542.394445015] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060541.280 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060542.490602891] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060541.378 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060542.586802641] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060541.476 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060542.682544022] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060541.577 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060542.810274058] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060541.676 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060542.907151172] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060541.774 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060543.002747014] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060541.876 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060543.099026513] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060541.973 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060543.194895351] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060542.078 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060543.290820480] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060542.174 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060543.386311907] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060542.274 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060543.482409991] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060542.375 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060543.578413577] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060542.478 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060543.674369581] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060542.579 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060543.802832855] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060542.678 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060543.899036813] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060542.779 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060543.994327577] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060542.879 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060544.090320705] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060542.976 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060544.186772492] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060543.077 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060544.288994028] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060543.180 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060544.378518543] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060543.277 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060544.506704738] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060543.376 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060544.602927946] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060543.479 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060544.698611287] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060543.576 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060544.795057033] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060543.674 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060544.890604168] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060543.774 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060544.986298050] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060543.875 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060545.082845294] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060543.973 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060545.179071711] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060544.075 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060545.306747788] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060544.175 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060545.402364338] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060544.275 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060545.498736877] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060544.375 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060545.594764088] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060544.475 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060545.690328972] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060544.575 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060545.786941258] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060544.678 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060545.883046925] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060544.778 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060545.978750974] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060544.877 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060546.074360524] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060544.978 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060546.171232723] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060545.079 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060546.298397225] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060545.176 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060546.395023801] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060545.276 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060546.490992013] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060545.376 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060546.587082681] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060545.474 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060546.682548275] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060545.578 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060546.778696817] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060545.673 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060546.876140924] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060545.773 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060547.003707878] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060545.870 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060547.098798103] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060545.972 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060547.194866688] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060546.071 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060547.290833733] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060546.171 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060547.386329409] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060546.271 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060547.483293315] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060546.372 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060547.579169277] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060546.472 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060547.674883868] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060546.574 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060547.802859066] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060546.673 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060547.899415311] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060546.774 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060547.994313205] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060546.875 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060548.090343332] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060546.974 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060548.186570915] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060547.072 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060548.282695332] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060547.172 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060548.378439630] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060547.270 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060548.474870502] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060547.374 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060548.602684369] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060547.471 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060548.699269238] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060547.571 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060548.795158493] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060547.673 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060548.890723502] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060547.773 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060548.986786295] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060547.873 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060549.083215209] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060547.973 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060549.178610262] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060548.075 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060549.275324296] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060548.174 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060549.402869792] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060548.275 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060549.499284872] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060548.375 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060549.595784284] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060548.476 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060549.691285919] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060548.575 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060549.787229881] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060548.676 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060549.882954096] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060548.778 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060549.979025056] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060548.876 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060550.075045600] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060548.979 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060550.202760178] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060549.076 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060550.299197174] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060549.176 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060550.395070679] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060549.273 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060550.490616646] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060549.375 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060550.587507469] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060549.474 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060550.683107395] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060549.572 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060550.778782860] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060549.673 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060550.875258648] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060549.773 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060550.971065653] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060549.873 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060551.099026102] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060549.973 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060551.194923523] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060550.071 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060551.291050024] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060550.173 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060551.387450271] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060550.270 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060551.482462580] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060550.370 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060551.580839006] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060550.470 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060551.675244324] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060550.572 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060551.772111314] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060550.670 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060551.898978028] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060550.771 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060551.994944282] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060550.871 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060552.091238572] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060550.970 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060552.186816914] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060551.071 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060552.283372033] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060551.169 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060552.378978375] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060551.270 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060552.474627842] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060551.369 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060552.602658581] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060551.470 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060552.699147785] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060551.572 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060552.794969373] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060551.671 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060552.890599632] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060551.771 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060552.987339623] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060551.872 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060553.083350834] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060551.972 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060553.178897635] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060552.075 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060553.274530810] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060552.176 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060553.402515175] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060552.277 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060553.498615510] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060552.374 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060553.595010507] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060552.474 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060553.690800304] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060552.574 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060553.786814682] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060552.673 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060553.883368385] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060552.773 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060554.010679093] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060552.871 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060554.107493500] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060552.971 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060554.203063718] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060553.072 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060554.299009846] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060553.172 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060554.394839018] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060553.272 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060554.490790688] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060553.373 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060554.586552778] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060553.474 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060554.683402226] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060553.576 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060554.778887820] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060553.676 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060554.906906935] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060553.779 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060555.003486595] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060553.879 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060555.099302642] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060553.983 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060555.194859985] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060554.083 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060555.290898571] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060554.184 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060555.386970989] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060554.283 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060555.484295305] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060554.383 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060555.578913704] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060554.482 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060555.674779042] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060554.582 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060555.802797823] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060554.679 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060555.899596605] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060554.778 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060555.994846244] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060554.879 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060556.090820914] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060554.976 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060556.187033330] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060555.075 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060556.283048291] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060555.175 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060556.411704021] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060555.275 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060556.507447236] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060555.374 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060556.603472988] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060555.473 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060556.699348243] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060555.574 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060556.795392578] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060555.674 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060556.890799173] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060555.774 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060556.986850717] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060555.875 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060557.082788887] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060555.974 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060557.179608253] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060556.075 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060557.280056232] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060556.179 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060557.402728258] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060556.278 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060557.498648720] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060556.380 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060557.594754097] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060556.477 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060557.691354257] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060556.579 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060557.787025265] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060556.679 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060557.882697522] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060556.777 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060557.979481014] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060556.879 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060558.075019106] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060556.979 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060558.202906931] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060557.079 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060558.299569882] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060557.179 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060558.396157418] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060557.279 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060558.491566305] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060557.378 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060558.587232729] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060557.476 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060558.682955444] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060557.575 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060558.779260317] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060557.675 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060558.908079420] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060557.775 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060559.003612680] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060557.875 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060559.058845700] [nav2_container]: Load Library: /opt/ros/humble/lib/libmap_server_core.so
+[component_container_isolated-7] [INFO] [1794060559.074117016] [nav2_container]: Found class: rclcpp_components::NodeFactoryTemplate<nav2_map_server::CostmapFilterInfoServer>
+[component_container_isolated-7] [INFO] [1794060559.074296389] [nav2_container]: Found class: rclcpp_components::NodeFactoryTemplate<nav2_map_server::MapSaver>
+[component_container_isolated-7] [INFO] [1794060559.074313597] [nav2_container]: Found class: rclcpp_components::NodeFactoryTemplate<nav2_map_server::MapServer>
+[component_container_isolated-7] [INFO] [1794060559.074324097] [nav2_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<nav2_map_server::MapServer>
+[rviz2-1] [INFO] [1794060559.098908318] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060557.976 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060559.130223815] [map_server]: 
+[component_container_isolated-7] 	map_server lifecycle node launched. 
+[component_container_isolated-7] 	Waiting on external lifecycle transitions to activate
+[component_container_isolated-7] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[component_container_isolated-7] [INFO] [1794060559.130376354] [map_server]: Creating
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/map_server' in container '/nav2_container'
+[component_container_isolated-7] [INFO] [1794060559.144620853] [nav2_container]: Load Library: /opt/ros/humble/lib/libamcl_core.so
+[component_container_isolated-7] [INFO] [1794060559.154290919] [nav2_container]: Found class: rclcpp_components::NodeFactoryTemplate<nav2_amcl::AmclNode>
+[component_container_isolated-7] [INFO] [1794060559.154383376] [nav2_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<nav2_amcl::AmclNode>
+[component_container_isolated-7] [INFO] [1794060559.193536424] [amcl]: 
+[component_container_isolated-7] 	amcl lifecycle node launched. 
+[component_container_isolated-7] 	Waiting on external lifecycle transitions to activate
+[component_container_isolated-7] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[component_container_isolated-7] [INFO] [1794060559.194289205] [amcl]: Creating
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/amcl' in container '/nav2_container'
+[component_container_isolated-7] [INFO] [1794060559.202026132] [nav2_container]: Load Library: /opt/ros/humble/lib/libnav2_lifecycle_manager_core.so
+[component_container_isolated-7] [INFO] [1794060559.203071159] [nav2_container]: Found class: rclcpp_components::NodeFactoryTemplate<nav2_lifecycle_manager::LifecycleManager>
+[component_container_isolated-7] [INFO] [1794060559.203111116] [nav2_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<nav2_lifecycle_manager::LifecycleManager>
+[rviz2-1] [INFO] [1794060559.206057198] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060558.074 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060559.231630155] [lifecycle_manager_localization]: Creating
+[component_container_isolated-7] [INFO] [1794060559.237158907] [lifecycle_manager_localization]: [34m[1mCreating and initializing lifecycle service clients[0m[0m
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/lifecycle_manager_localization' in container '/nav2_container'
+[component_container_isolated-7] [INFO] [1794060559.237201781] [nav2_container]: Load Library: /opt/ros/humble/lib/libcontroller_server_core.so
+[component_container_isolated-7] [INFO] [1794060559.246462936] [nav2_container]: Found class: rclcpp_components::NodeFactoryTemplate<nav2_controller::ControllerServer>
+[component_container_isolated-7] [INFO] [1794060559.246573185] [nav2_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<nav2_controller::ControllerServer>
+[component_container_isolated-7] [INFO] [1794060559.278557755] [lifecycle_manager_localization]: [34m[1mStarting managed nodes bringup...[0m[0m
+[component_container_isolated-7] [INFO] [1794060559.278772127] [lifecycle_manager_localization]: [34m[1mConfiguring map_server[0m[0m
+[component_container_isolated-7] [INFO] [1794060559.279129122] [map_server]: Configuring
+[component_container_isolated-7] [INFO] [1794060559.279245787] [map_io]: Loading yaml file: /home/orangepi/dianshu/install/dianshu_nav/share/dianshu_nav/maps/map.yaml
+[component_container_isolated-7] [INFO] [1794060559.279930318] [map_io]: resolution: 0.025
+[component_container_isolated-7] [INFO] [1794060559.279960943] [map_io]: origin[0]: -1.26
+[component_container_isolated-7] [INFO] [1794060559.279972318] [map_io]: origin[1]: -0.496
+[component_container_isolated-7] [INFO] [1794060559.279981943] [map_io]: origin[2]: 0
+[component_container_isolated-7] [INFO] [1794060559.279991859] [map_io]: free_thresh: 0.25
+[component_container_isolated-7] [INFO] [1794060559.280001192] [map_io]: occupied_thresh: 0.65
+[component_container_isolated-7] [INFO] [1794060559.280011400] [map_io]: mode: trinary
+[component_container_isolated-7] [INFO] [1794060559.280022192] [map_io]: negate: 0
+[component_container_isolated-7] [INFO] [1794060559.280358187] [map_io]: Loading image_file: /home/orangepi/dianshu/install/dianshu_nav/share/dianshu_nav/maps/map.pgm
+[component_container_isolated-7] [INFO] [1794060559.283857552] [map_io]: Read map /home/orangepi/dianshu/install/dianshu_nav/share/dianshu_nav/maps/map.pgm: 108 X 111 map @ 0.025 m/cell
+[rviz2-1] [INFO] [1794060559.291073862] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060558.174 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060559.306576592] [lifecycle_manager_localization]: [34m[1mConfiguring amcl[0m[0m
+[component_container_isolated-7] [INFO] [1794060559.307147084] [amcl]: Configuring
+[component_container_isolated-7] [INFO] [1794060559.307337248] [amcl]: initTransforms
+[component_container_isolated-7] [INFO] [1794060559.324514412] [controller_server]: 
+[component_container_isolated-7] 	controller_server lifecycle node launched. 
+[component_container_isolated-7] 	Waiting on external lifecycle transitions to activate
+[component_container_isolated-7] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[component_container_isolated-7] [INFO] [1794060559.331679973] [controller_server]: Creating controller server
+[component_container_isolated-7] [INFO] [1794060559.350986563] [amcl]: initPubSub
+[component_container_isolated-7] [INFO] [1794060559.373914726] [amcl]: Subscribed to map topic.
+[rviz2-1] [INFO] [1794060559.387237571] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060558.275 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060559.388940296] [lifecycle_manager_localization]: [34m[1mActivating map_server[0m[0m
+[component_container_isolated-7] [INFO] [1794060559.389786700] [map_server]: Activating
+[component_container_isolated-7] [INFO] [1794060559.390194153] [map_server]: Creating bond (map_server) to lifecycle manager.
+[component_container_isolated-7] [INFO] [1794060559.390254527] [amcl]: Received a 108 X 111 map @ 0.025 m/pix
+[component_container_isolated-7] [INFO] [1794060559.407239193] [local_costmap.local_costmap]: 
+[component_container_isolated-7] 	local_costmap lifecycle node launched. 
+[component_container_isolated-7] 	Waiting on external lifecycle transitions to activate
+[component_container_isolated-7] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[component_container_isolated-7] [INFO] [1794060559.409514743] [local_costmap.local_costmap]: Creating Costmap
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/controller_server' in container '/nav2_container'
+[rviz2-1] [INFO] [1794060559.423181750] [rviz2]: Trying to create a map of size 108 x 111 using 1 swatches
+[component_container_isolated-7] [INFO] [1794060559.434268712] [nav2_container]: Load Library: /opt/ros/humble/lib/libsmoother_server_core.so
+[component_container_isolated-7] [INFO] [1794060559.437478165] [nav2_container]: Found class: rclcpp_components::NodeFactoryTemplate<nav2_smoother::SmootherServer>
+[component_container_isolated-7] [INFO] [1794060559.437567705] [nav2_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<nav2_smoother::SmootherServer>
+[rviz2-1] [ERROR] [1794060559.453525720] [rviz2]: Vertex Program:rviz/glsl120/indexed_8bit_image.vert Fragment Program:rviz/glsl120/indexed_8bit_image.frag GLSL link result : 
+[rviz2-1] active samplers with a different type refer to the same texture image unit
+[component_container_isolated-7] [INFO] [1794060559.464340561] [smoother_server]: 
+[component_container_isolated-7] 	smoother_server lifecycle node launched. 
+[component_container_isolated-7] 	Waiting on external lifecycle transitions to activate
+[component_container_isolated-7] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[component_container_isolated-7] [INFO] [1794060559.466637985] [smoother_server]: Creating smoother server
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/smoother_server' in container '/nav2_container'
+[component_container_isolated-7] [INFO] [1794060559.474033668] [nav2_container]: Load Library: /opt/ros/humble/lib/libplanner_server_core.so
+[component_container_isolated-7] [INFO] [1794060559.477072790] [nav2_container]: Found class: rclcpp_components::NodeFactoryTemplate<nav2_planner::PlannerServer>
+[component_container_isolated-7] [INFO] [1794060559.477190621] [nav2_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<nav2_planner::PlannerServer>
+[rviz2-1] [INFO] [1794060559.482444336] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060558.372 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060559.501479972] [planner_server]: 
+[component_container_isolated-7] 	planner_server lifecycle node launched. 
+[component_container_isolated-7] 	Waiting on external lifecycle transitions to activate
+[component_container_isolated-7] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[component_container_isolated-7] [INFO] [1794060559.503429151] [planner_server]: Creating
+[component_container_isolated-7] [INFO] [1794060559.520324569] [lifecycle_manager_localization]: Server map_server connected with bond.
+[component_container_isolated-7] [INFO] [1794060559.520415860] [lifecycle_manager_localization]: [34m[1mActivating amcl[0m[0m
+[component_container_isolated-7] [INFO] [1794060559.520528733] [global_costmap.global_costmap]: 
+[component_container_isolated-7] 	global_costmap lifecycle node launched. 
+[component_container_isolated-7] 	Waiting on external lifecycle transitions to activate
+[component_container_isolated-7] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[component_container_isolated-7] [INFO] [1794060559.520763230] [amcl]: Activating
+[component_container_isolated-7] [INFO] [1794060559.520832937] [amcl]: Creating bond (amcl) to lifecycle manager.
+[component_container_isolated-7] [INFO] [1794060559.521284430] [global_costmap.global_costmap]: Creating Costmap
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/planner_server' in container '/nav2_container'
+[component_container_isolated-7] [INFO] [1794060559.536776369] [nav2_container]: Load Library: /opt/ros/humble/lib/libbehavior_server_core.so
+[component_container_isolated-7] [INFO] [1794060559.540234318] [nav2_container]: Found class: rclcpp_components::NodeFactoryTemplate<behavior_server::BehaviorServer>
+[component_container_isolated-7] [INFO] [1794060559.540386274] [nav2_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<behavior_server::BehaviorServer>
+[component_container_isolated-7] [INFO] [1794060559.562822402] [behavior_server]: 
+[component_container_isolated-7] 	behavior_server lifecycle node launched. 
+[component_container_isolated-7] 	Waiting on external lifecycle transitions to activate
+[component_container_isolated-7] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/behavior_server' in container '/nav2_container'
+[component_container_isolated-7] [INFO] [1794060559.573892155] [nav2_container]: Load Library: /opt/ros/humble/lib/libbt_navigator_core.so
+[component_container_isolated-7] [INFO] [1794060559.576496992] [nav2_container]: Found class: rclcpp_components::NodeFactoryTemplate<nav2_bt_navigator::BtNavigator>
+[component_container_isolated-7] [INFO] [1794060559.576551824] [nav2_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<nav2_bt_navigator::BtNavigator>
+[component_container_isolated-7] [INFO] [1794060559.578690585] [amcl]: createLaserObject
+[rviz2-1] [INFO] [1794060559.579338075] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060558.473 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060559.608810849] [bt_navigator]: 
+[component_container_isolated-7] 	bt_navigator lifecycle node launched. 
+[component_container_isolated-7] 	Waiting on external lifecycle transitions to activate
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/bt_navigator' in container '/nav2_container'
+[component_container_isolated-7] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[component_container_isolated-7] [INFO] [1794060559.608915848] [bt_navigator]: Creating
+[component_container_isolated-7] [INFO] [1794060559.614099563] [nav2_container]: Load Library: /opt/ros/humble/lib/libwaypoint_follower_core.so
+[component_container_isolated-7] [INFO] [1794060559.615442668] [nav2_container]: Found class: rclcpp_components::NodeFactoryTemplate<nav2_waypoint_follower::WaypointFollower>
+[component_container_isolated-7] [INFO] [1794060559.615491376] [nav2_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<nav2_waypoint_follower::WaypointFollower>
+[component_container_isolated-7] [INFO] [1794060559.631625847] [lifecycle_manager_localization]: Server amcl connected with bond.
+[component_container_isolated-7] [INFO] [1794060559.631703429] [lifecycle_manager_localization]: [34m[1mManaged nodes are active[0m[0m
+[component_container_isolated-7] [INFO] [1794060559.631733470] [lifecycle_manager_localization]: [34m[1mCreating bond timer...[0m[0m
+[component_container_isolated-7] [INFO] [1794060559.640117888] [waypoint_follower]: 
+[component_container_isolated-7] 	waypoint_follower lifecycle node launched. 
+[component_container_isolated-7] 	Waiting on external lifecycle transitions to activate
+[component_container_isolated-7] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[component_container_isolated-7] [INFO] [1794060559.640738546] [waypoint_follower]: Creating
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/waypoint_follower' in container '/nav2_container'
+[component_container_isolated-7] [INFO] [1794060559.644192995] [nav2_container]: Load Library: /opt/ros/humble/lib/libvelocity_smoother_core.so
+[component_container_isolated-7] [INFO] [1794060559.645555058] [nav2_container]: Found class: rclcpp_components::NodeFactoryTemplate<nav2_velocity_smoother::VelocitySmoother>
+[component_container_isolated-7] [INFO] [1794060559.645601141] [nav2_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<nav2_velocity_smoother::VelocitySmoother>
+[component_container_isolated-7] [INFO] [1794060559.676697891] [velocity_smoother]: 
+[component_container_isolated-7] 	velocity_smoother lifecycle node launched. 
+[component_container_isolated-7] 	Waiting on external lifecycle transitions to activate
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/velocity_smoother' in container '/nav2_container'
+[component_container_isolated-7] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[component_container_isolated-7] [INFO] [1794060559.682982340] [nav2_container]: Found class: rclcpp_components::NodeFactoryTemplate<nav2_lifecycle_manager::LifecycleManager>
+[component_container_isolated-7] [INFO] [1794060559.683035423] [nav2_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<nav2_lifecycle_manager::LifecycleManager>
+[component_container_isolated-7] [INFO] [1794060559.704528315] [lifecycle_manager_navigation]: Creating
+[rviz2-1] [INFO] [1794060559.707351023] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060558.573 for reason 'discarding message because the queue is full'
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/lifecycle_manager_navigation' in container '/nav2_container'
+[component_container_isolated-7] [INFO] [1794060559.714554209] [lifecycle_manager_navigation]: [34m[1mCreating and initializing lifecycle service clients[0m[0m
+[component_container_isolated-7] [INFO] [1794060559.739559882] [lifecycle_manager_navigation]: [34m[1mStarting managed nodes bringup...[0m[0m
+[component_container_isolated-7] [INFO] [1794060559.739657881] [lifecycle_manager_navigation]: [34m[1mConfiguring controller_server[0m[0m
+[component_container_isolated-7] [INFO] [1794060559.739976668] [controller_server]: Configuring controller interface
+[component_container_isolated-7] [INFO] [1794060559.741269315] [controller_server]: getting goal checker plugins..
+[component_container_isolated-7] [INFO] [1794060559.742134969] [controller_server]: Controller frequency set to 10.0000Hz
+[component_container_isolated-7] [INFO] [1794060559.742371216] [local_costmap.local_costmap]: Configuring
+[component_container_isolated-7] [INFO] [1794060559.762090217] [local_costmap.local_costmap]: Using plugin "voxel_layer"
+[component_container_isolated-7] [INFO] [1794060559.775860764] [local_costmap.local_costmap]: Subscribed to Topics: scan
+[rviz2-1] [INFO] [1794060559.803383192] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060558.674 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060559.809009942] [local_costmap.local_costmap]: Initialized plugin "voxel_layer"
+[component_container_isolated-7] [INFO] [1794060559.809250272] [local_costmap.local_costmap]: Using plugin "inflation_layer"
+[component_container_isolated-7] [INFO] [1794060559.813451960] [local_costmap.local_costmap]: Initialized plugin "inflation_layer"
+[component_container_isolated-7] [INFO] [1794060559.844362338] [controller_server]: Created progress_checker : progress_checker of type nav2_controller::SimpleProgressChecker
+[component_container_isolated-7] [INFO] [1794060559.847149172] [controller_server]: Created goal checker : general_goal_checker of type nav2_controller::SimpleGoalChecker
+[component_container_isolated-7] [INFO] [1794060559.849345390] [controller_server]: Controller Server has general_goal_checker  goal checkers available.
+[component_container_isolated-7] [INFO] [1794060559.851971518] [controller_server]: Created controller : FollowPath of type dianshu_controller::SmoothGoalController
+[component_container_isolated-7] [INFO] [1794060559.864513000] [controller_server]: Controller Server has FollowPath  controllers available.
+[component_container_isolated-7] [INFO] [1794060559.880864467] [lifecycle_manager_navigation]: [34m[1mConfiguring smoother_server[0m[0m
+[component_container_isolated-7] [INFO] [1794060559.881283586] [smoother_server]: Configuring smoother server
+[component_container_isolated-7] [INFO] [1794060559.898626123] [smoother_server]: Created smoother : simple_smoother of type nav2_smoother::SimpleSmoother
+[rviz2-1] [INFO] [1794060559.898849536] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060558.773 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060559.900621385] [smoother_server]: Smoother Server has simple_smoother  smoothers available.
+[component_container_isolated-7] [INFO] [1794060559.922795308] [lifecycle_manager_navigation]: [34m[1mConfiguring planner_server[0m[0m
+[component_container_isolated-7] [INFO] [1794060559.923169803] [planner_server]: Configuring
+[component_container_isolated-7] [INFO] [1794060559.923296092] [global_costmap.global_costmap]: Configuring
+[component_container_isolated-7] [INFO] [1794060559.942632724] [global_costmap.global_costmap]: Using plugin "static_layer"
+[component_container_isolated-7] [INFO] [1794060559.947757232] [global_costmap.global_costmap]: Subscribing to the map topic (/map) with transient local durability
+[component_container_isolated-7] [INFO] [1794060559.950568857] [global_costmap.global_costmap]: Initialized plugin "static_layer"
+[component_container_isolated-7] [INFO] [1794060559.950696022] [global_costmap.global_costmap]: Using plugin "obstacle_layer"
+[component_container_isolated-7] [INFO] [1794060559.956438563] [global_costmap.global_costmap]: Subscribed to Topics: scan
+[component_container_isolated-7] [INFO] [1794060559.970063570] [global_costmap.global_costmap]: Initialized plugin "obstacle_layer"
+[component_container_isolated-7] [INFO] [1794060559.970189277] [global_costmap.global_costmap]: Using plugin "inflation_layer"
+[component_container_isolated-7] [INFO] [1794060559.975037872] [global_costmap.global_costmap]: Initialized plugin "inflation_layer"
+[rviz2-1] [INFO] [1794060559.994844789] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060558.877 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060560.011749165] [planner_server]: Created global planner plugin GridBased of type nav2_navfn_planner/NavfnPlanner
+[component_container_isolated-7] [INFO] [1794060560.011838413] [planner_server]: Configuring plugin GridBased of type NavfnPlanner
+[component_container_isolated-7] [INFO] [1794060560.014494583] [planner_server]: Planner Server has GridBased  planners available.
+[component_container_isolated-7] [INFO] [1794060560.019911044] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 108 X 111 at 0.025000 m/pix
+[component_container_isolated-7] [INFO] [1794060560.050237515] [lifecycle_manager_navigation]: [34m[1mConfiguring behavior_server[0m[0m
+[component_container_isolated-7] [INFO] [1794060560.050667716] [behavior_server]: Configuring
+[component_container_isolated-7] [INFO] [1794060560.064605678] [behavior_server]: Creating behavior plugin spin of type nav2_behaviors/Spin
+[component_container_isolated-7] [INFO] [1794060560.066296153] [behavior_server]: Configuring spin
+[rviz2-1] [INFO] [1794060560.091972650] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060558.976 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060560.094168284] [behavior_server]: Creating behavior plugin backup of type nav2_behaviors/BackUp
+[component_container_isolated-7] [INFO] [1794060560.096560207] [behavior_server]: Configuring backup
+[component_container_isolated-7] [INFO] [1794060560.118208263] [behavior_server]: Creating behavior plugin drive_on_heading of type nav2_behaviors/DriveOnHeading
+[component_container_isolated-7] [INFO] [1794060560.119360621] [behavior_server]: Configuring drive_on_heading
+[component_container_isolated-7] [INFO] [1794060560.142108245] [behavior_server]: Creating behavior plugin assisted_teleop of type nav2_behaviors/AssistedTeleop
+[component_container_isolated-7] [INFO] [1794060560.144678665] [behavior_server]: Configuring assisted_teleop
+[component_container_isolated-7] [INFO] [1794060560.175782415] [behavior_server]: Creating behavior plugin wait of type nav2_behaviors/Wait
+[component_container_isolated-7] [INFO] [1794060560.176791276] [behavior_server]: Configuring wait
+[rviz2-1] [INFO] [1794060560.188044193] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060559.080 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060560.189391382] [lifecycle_manager_navigation]: [34m[1mConfiguring bt_navigator[0m[0m
+[component_container_isolated-7] [INFO] [1794060560.189796209] [bt_navigator]: Configuring
+[rviz2-1] [INFO] [1794060560.315929101] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060559.176 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060560.389706848] [amcl]: Message Filter dropping message: frame 'laser' at time 1794060559.277 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-1] [INFO] [1794060560.411551485] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060559.277 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060560.442601277] [lifecycle_manager_navigation]: [34m[1mConfiguring waypoint_follower[0m[0m
+[component_container_isolated-7] [INFO] [1794060560.442909273] [waypoint_follower]: Configuring
+[rviz2-1] [INFO] [1794060560.507226659] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060559.378 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060560.511392472] [waypoint_follower]: Created waypoint_task_executor : wait_at_waypoint of type nav2_waypoint_follower::WaitAtWaypoint
+[component_container_isolated-7] [INFO] [1794060560.512613954] [waypoint_follower]: Waypoint task executor plugin is disabled.
+[component_container_isolated-7] [INFO] [1794060560.513226154] [lifecycle_manager_navigation]: [34m[1mConfiguring velocity_smoother[0m[0m
+[component_container_isolated-7] [INFO] [1794060560.513845061] [velocity_smoother]: Configuring velocity smoother
+[component_container_isolated-7] [INFO] [1794060560.532400038] [lifecycle_manager_navigation]: [34m[1mActivating controller_server[0m[0m
+[component_container_isolated-7] [INFO] [1794060560.532720575] [controller_server]: Activating
+[component_container_isolated-7] [INFO] [1794060560.532789991] [local_costmap.local_costmap]: Activating
+[component_container_isolated-7] [INFO] [1794060560.532820907] [local_costmap.local_costmap]: Checking transform
+[component_container_isolated-7] [INFO] [1794060560.532987446] [local_costmap.local_costmap]: start
+[rviz2-1] [INFO] [1794060560.603119121] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060559.478 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060560.699337288] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060559.578 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060560.784768696] [controller_server]: Activating controller: FollowPath of type regulated_pure_pursuit_controller::RegulatedPurePursuitController
+[component_container_isolated-7] [INFO] [1794060560.784940777] [controller_server]: Creating bond (controller_server) to lifecycle manager.
+[rviz2-1] [INFO] [1794060560.794598301] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060559.680 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060560.891308293] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060559.783 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060560.893067893] [lifecycle_manager_navigation]: Server controller_server connected with bond.
+[component_container_isolated-7] [INFO] [1794060560.893162683] [lifecycle_manager_navigation]: [34m[1mActivating smoother_server[0m[0m
+[component_container_isolated-7] [INFO] [1794060560.893748633] [smoother_server]: Activating
+[component_container_isolated-7] [INFO] [1794060560.893894172] [smoother_server]: Creating bond (smoother_server) to lifecycle manager.
+[rviz2-1] [INFO] [1794060560.987105674] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060559.883 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060561.013407203] [lifecycle_manager_navigation]: Server smoother_server connected with bond.
+[component_container_isolated-7] [INFO] [1794060561.013530577] [lifecycle_manager_navigation]: [34m[1mActivating planner_server[0m[0m
+[component_container_isolated-7] [INFO] [1794060561.014127901] [planner_server]: Activating
+[component_container_isolated-7] [INFO] [1794060561.014328565] [global_costmap.global_costmap]: Activating
+[component_container_isolated-7] [INFO] [1794060561.014372023] [global_costmap.global_costmap]: Checking transform
+[component_container_isolated-7] [INFO] [1794060561.014419564] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-1] [INFO] [1794060561.082857264] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060559.983 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060561.179259844] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060560.083 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060561.275560051] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060560.184 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [WARN] [1794060561.371202850] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[rviz2-1] [INFO] [1794060561.372186044] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060560.283 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060561.498943094] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060560.381 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060561.514514365] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-1] [INFO] [1794060561.595088136] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060560.483 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060561.691116222] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060560.580 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060561.787248723] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060560.684 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060561.882985146] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060560.779 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060561.979796345] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060560.877 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060562.014505917] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-1] [INFO] [1794060562.075323063] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060560.974 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060562.172628922] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060561.076 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060562.298968311] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060561.171 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060562.395800510] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060561.271 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060562.491137939] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060561.371 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060562.514502136] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-1] [INFO] [1794060562.588594962] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060561.469 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060562.683002196] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060561.569 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060562.779301528] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060561.669 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060562.875638484] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060561.768 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060563.004038468] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060561.868 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060563.014502147] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-1] [INFO] [1794060563.099740475] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060561.968 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060563.194864991] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060562.069 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060563.291222571] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060562.171 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [WARN] [1794060563.373779939] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[rviz2-1] [INFO] [1794060563.387122617] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060562.271 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060563.483132037] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060562.370 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060563.514540407] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-1] [INFO] [1794060563.580868680] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060562.470 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060563.707683479] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060562.572 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060563.804312098] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060562.671 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060563.898939037] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060562.774 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060563.995306368] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060562.872 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060564.014503002] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-1] [INFO] [1794060564.091329204] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060562.972 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060564.187024794] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060563.072 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060564.283121129] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060563.171 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060564.379119173] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060563.271 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060564.475732334] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060563.373 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060564.514530721] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-1] [INFO] [1794060564.571968375] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060563.474 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060564.667390094] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060563.575 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060564.764083170] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060563.677 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060564.891763915] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060563.780 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060564.987814458] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060563.880 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060565.014502732] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-1] [INFO] [1794060565.083760878] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060563.981 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060565.179465219] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060564.081 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060565.275360306] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060564.176 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060565.371945467] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060564.275 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [WARN] [1794060565.469496905] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[rviz2-1] [INFO] [1794060565.499584212] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060564.370 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060565.515696225] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-1] [INFO] [1794060565.595303761] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060564.467 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060565.691604259] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060564.565 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060565.787286433] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060564.663 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060565.883316561] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060564.763 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060565.979081858] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060564.864 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060566.014507462] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-1] [INFO] [1794060566.075643395] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060564.965 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060566.171249445] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060565.065 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060566.300114797] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060565.166 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060566.395203271] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060565.266 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060566.491277440] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060565.368 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060566.514501348] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-1] [INFO] [1794060566.587280442] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060565.469 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060566.684050225] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060565.569 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060566.779594151] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060565.672 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060566.875460239] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060565.772 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060566.971374285] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060565.873 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060567.014501525] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-1] [INFO] [1794060567.071836514] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060565.973 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060567.195307112] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060566.069 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060567.291942147] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060566.169 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060567.387172828] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060566.270 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [WARN] [1794060567.469812736] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[rviz2-1] [INFO] [1794060567.484115275] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060566.369 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060567.514500661] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-1] [INFO] [1794060567.579849657] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060566.468 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060567.675597163] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060566.568 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060567.803863857] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060566.666 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060567.899636155] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060566.766 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060567.995146832] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060566.865 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060568.014526921] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-1] [INFO] [1794060568.091415247] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060566.966 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060568.187843785] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060567.066 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060568.283437877] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060567.167 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060568.379069885] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060567.267 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060568.475977916] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060567.366 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060568.514534515] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-1] [INFO] [1794060568.571980919] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060567.469 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060568.699775703] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060567.573 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060568.795526877] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060567.673 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060568.891613003] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060567.774 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060568.992494642] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060567.874 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060569.014506401] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-1] [INFO] [1794060569.084167917] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060567.978 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060569.179338807] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060568.074 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060569.276158173] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060568.172 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060569.371742931] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060568.274 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060569.502400590] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060568.371 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060569.514637868] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[component_container_isolated-7] [WARN] [1794060569.567968916] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[rviz2-1] [INFO] [1794060569.595419595] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060568.468 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060569.693686190] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060568.571 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060569.787942426] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060568.668 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060569.883239606] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060568.766 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060569.979536188] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060568.865 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060570.014942416] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-1] [INFO] [1794060570.075502274] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060568.980 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060570.203746386] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060569.063 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060570.300246839] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060569.165 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060570.395689809] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060569.269 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060570.491090903] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060569.368 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060570.514500892] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-1] [INFO] [1794060570.592384620] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060569.468 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060570.685068213] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060569.568 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060570.779424032] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060569.672 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060570.878752694] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060569.772 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060570.971379705] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060569.873 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060571.014516861] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-1] [INFO] [1794060571.099220905] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060569.973 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060571.142039316] [rviz2]: Setting estimate pose: Frame:map, Position(0.0142046, 0.0142045, 0), Orientation(0, 0, -1.84761e-06, 1) = Angle: -3.69522e-06
+[component_container_isolated-7] [INFO] [1794060571.144448447] [amcl]: initialPoseReceived
+[component_container_isolated-7] [WARN] [1794060571.144698402] [amcl]: Failed to transform initial pose in time (Lookup would require extrapolation into the future.  Requested time 1794060571.144570 but the latest data is at time 1794060571.077753, when looking up transform from frame [base_footprint] to frame [odom])
+[component_container_isolated-7] [INFO] [1794060571.144742151] [amcl]: Setting pose (1794060571.144740): 0.014 0.014 -0.000
+[rviz2-1] [INFO] [1794060571.195400405] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060570.069 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060571.291432282] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060570.171 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060571.386147887] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060570.268 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060571.482326429] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060570.365 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060571.514929032] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Lookup would require extrapolation into the past.  Requested time 1794060571.476733 but the earliest data is at time 1794060572.066008, when looking up transform from frame [base_link] to frame [map]
+[rviz2-1] [INFO] [1794060571.578380973] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060570.468 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060571.674594556] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060570.568 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060571.772508239] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060570.665 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060571.867152470] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060570.766 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060571.994923629] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060570.865 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060572.014596840] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Lookup would require extrapolation into the past.  Requested time 1794060571.968792 but the earliest data is at time 1794060572.066008, when looking up transform from frame [base_link] to frame [map]
+[rviz2-1] [INFO] [1794060572.090903299] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060570.968 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060572.188403988] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060571.066 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060572.282717099] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060571.166 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060572.515699334] [global_costmap.global_costmap]: start
+[component_container_isolated-7] [INFO] [1794060573.528777788] [planner_server]: Activating plugin GridBased of type NavfnPlanner
+[component_container_isolated-7] [INFO] [1794060573.532313903] [planner_server]: Creating bond (planner_server) to lifecycle manager.
+[component_container_isolated-7] [INFO] [1794060573.644376127] [lifecycle_manager_navigation]: Server planner_server connected with bond.
+[component_container_isolated-7] [INFO] [1794060573.644553458] [lifecycle_manager_navigation]: [34m[1mActivating behavior_server[0m[0m
+[component_container_isolated-7] [INFO] [1794060573.645169449] [behavior_server]: Activating
+[component_container_isolated-7] [INFO] [1794060573.645228365] [behavior_server]: Activating spin
+[component_container_isolated-7] [INFO] [1794060573.645274156] [behavior_server]: Activating backup
+[component_container_isolated-7] [INFO] [1794060573.645301280] [behavior_server]: Activating drive_on_heading
+[component_container_isolated-7] [INFO] [1794060573.645328988] [behavior_server]: Activating assisted_teleop
+[component_container_isolated-7] [INFO] [1794060573.645354363] [behavior_server]: Activating wait
+[component_container_isolated-7] [INFO] [1794060573.645384696] [behavior_server]: Creating bond (behavior_server) to lifecycle manager.
+[component_container_isolated-7] [INFO] [1794060573.757161091] [lifecycle_manager_navigation]: Server behavior_server connected with bond.
+[component_container_isolated-7] [INFO] [1794060573.757248298] [lifecycle_manager_navigation]: [34m[1mActivating bt_navigator[0m[0m
+[component_container_isolated-7] [INFO] [1794060573.757783790] [bt_navigator]: Activating
+[component_container_isolated-7] [INFO] [1794060573.923175021] [bt_navigator]: Creating bond (bt_navigator) to lifecycle manager.
+[component_container_isolated-7] [INFO] [1794060574.036220731] [lifecycle_manager_navigation]: Server bt_navigator connected with bond.
+[component_container_isolated-7] [INFO] [1794060574.036368312] [lifecycle_manager_navigation]: [34m[1mActivating waypoint_follower[0m[0m
+[component_container_isolated-7] [INFO] [1794060574.037133926] [waypoint_follower]: Activating
+[component_container_isolated-7] [INFO] [1794060574.037433755] [waypoint_follower]: Creating bond (waypoint_follower) to lifecycle manager.
+[component_container_isolated-7] [INFO] [1794060574.159453332] [lifecycle_manager_navigation]: Server waypoint_follower connected with bond.
+[component_container_isolated-7] [INFO] [1794060574.159720787] [lifecycle_manager_navigation]: [34m[1mActivating velocity_smoother[0m[0m
+[component_container_isolated-7] [INFO] [1794060574.161621842] [velocity_smoother]: Activating
+[component_container_isolated-7] [INFO] [1794060574.161760382] [velocity_smoother]: Creating bond (velocity_smoother) to lifecycle manager.
+[component_container_isolated-7] [INFO] [1794060574.274631386] [lifecycle_manager_navigation]: Server velocity_smoother connected with bond.
+[component_container_isolated-7] [INFO] [1794060574.274785092] [lifecycle_manager_navigation]: [34m[1mManaged nodes are active[0m[0m
+[component_container_isolated-7] [INFO] [1794060574.274823592] [lifecycle_manager_navigation]: [34m[1mCreating bond timer...[0m[0m
+[rviz2-1] [INFO] [1794060575.718144250] [rviz2]: Setting estimate pose: Frame:map, Position(-0.234375, -0.0568175, 0), Orientation(0, 0, 0.0185072, 0.999829) = Angle: 0.0370165
+[component_container_isolated-7] [INFO] [1794060575.719507772] [amcl]: initialPoseReceived
+[component_container_isolated-7] [WARN] [1794060575.719799143] [amcl]: Failed to transform initial pose in time (Lookup would require extrapolation into the future.  Requested time 1794060575.719651 but the latest data is at time 1794060575.648639, when looking up transform from frame [base_footprint] to frame [odom])
+[component_container_isolated-7] [INFO] [1794060575.720815586] [amcl]: Setting pose (1794060575.720794): -0.234 -0.057 0.037
+[rviz2-1] [INFO] [1794060580.973474181] [rviz2]: Setting estimate pose: Frame:map, Position(-0.46875, -0.0781235, 0), Orientation(0, 0, -0.00387748, 0.999992) = Angle: -0.00775498
+[component_container_isolated-7] [INFO] [1794060580.974080839] [amcl]: initialPoseReceived
+[component_container_isolated-7] [WARN] [1794060580.974313002] [amcl]: Failed to transform initial pose in time (Lookup would require extrapolation into the future.  Requested time 1794060580.974180 but the latest data is at time 1794060580.927454, when looking up transform from frame [base_footprint] to frame [odom])
+[component_container_isolated-7] [INFO] [1794060580.974367834] [amcl]: Setting pose (1794060580.974365): -0.469 -0.078 -0.008
+[rviz2-1] Start navigation
+[rviz2-1] [INFO] [1794060605.606322288] [rviz_navigation_dialog_action_client]: NavigateToPose will be called using the BT Navigator's default behavior tree.
+[component_container_isolated-7] [INFO] [1794060605.611694127] [bt_navigator]: Begin navigating from current location (-0.37, -0.02) to (0.13, 0.13)
+[component_container_isolated-7] [INFO] [1794060605.638610779] [controller_server]: Received a goal, begin computing control effort.
+[component_container_isolated-7] [WARN] [1794060605.639425392] [controller_server]: No goal checker was specified in parameter 'current_goal_checker'. Server will use only plugin loaded general_goal_checker . This warning will appear once.
+[component_container_isolated-7] [INFO] [1794060606.753697712] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [INFO] [1794060607.750320610] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [INFO] [1794060608.750164670] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [INFO] [1794060609.750162103] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [INFO] [1794060610.850369502] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [INFO] [1794060611.350425217] [controller_server]: Terminal alignment latched at 0.149 m; stopping translation
+[component_container_isolated-7] [INFO] [1794060611.850149688] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [INFO] [1794060611.854133797] [controller_server]: Final turn direction locked, yaw error 2.657 rad
+[component_container_isolated-7] [WARN] [1794060612.143751893] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[component_container_isolated-7] [INFO] [1794060612.850154495] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [WARN] [1794060613.133764721] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[component_container_isolated-7] [INFO] [1794060613.850144137] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [INFO] [1794060614.950388493] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [WARN] [1794060615.943204155] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[component_container_isolated-7] [INFO] [1794060615.950155054] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [INFO] [1794060616.950152404] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [INFO] [1794060617.950183628] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [WARN] [1794060618.879730498] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[component_container_isolated-7] [INFO] [1794060619.050188237] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [WARN] [1794060619.867184904] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[component_container_isolated-7] [INFO] [1794060620.050155921] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [WARN] [1794060620.232947231] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[component_container_isolated-7] [WARN] [1794060620.603849109] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[component_container_isolated-7] [INFO] [1794060621.050165687] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [INFO] [1794060622.050224452] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [WARN] [1794060622.085106113] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[rviz2-1] [INFO] [1794060623.034414822] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060571.269 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060623.150197520] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [WARN] [1794060623.177575582] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[component_container_isolated-7] [INFO] [1794060624.150154912] [controller_server]: Passing new path to controller.
+[rviz2-1] [ERROR] [1794060624.353049098] [rviz2]: Lookup would require extrapolation into the future.  Requested time 1794060624.336858 but the latest data is at time 1794060624.327896, when looking up transform from frame [laser] to frame [map]
+[component_container_isolated-7] [INFO] [1794060625.155240313] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [WARN] [1794060625.235741772] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[component_container_isolated-7] [INFO] [1794060626.250149080] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [INFO] [1794060627.251478160] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [INFO] [1794060628.250150570] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [INFO] [1794060629.351013584] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [INFO] [1794060630.353094112] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [WARN] [1794060631.182933343] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[component_container_isolated-7] [INFO] [1794060631.350151712] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [INFO] [1794060632.350161895] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [INFO] [1794060633.450595248] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [INFO] [1794060634.450149688] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [WARN] [1794060635.146607225] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[component_container_isolated-7] [INFO] [1794060635.450148287] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [WARN] [1794060635.614665738] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[component_container_isolated-7] [ERROR] [1794060636.250373488] [controller_server]: Failed to make progress
+[component_container_isolated-7] [WARN] [1794060636.250582610] [controller_server]: [follow_path] [ActionServer] Aborting handle.
+[component_container_isolated-7] [INFO] [1794060636.262450647] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[component_container_isolated-7] [INFO] [1794060636.264055082] [controller_server]: Received a goal, begin computing control effort.
+[component_container_isolated-7] [INFO] [1794060636.464374972] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [WARN] [1794060636.602568429] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[component_container_isolated-7] [INFO] [1794060637.565868560] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [INFO] [1794060638.564288933] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [INFO] [1794060639.564296699] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [INFO] [1794060640.565162119] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [INFO] [1794060641.664280658] [controller_server]: Passing new path to controller.
+[rviz2-1] Start navigation
+[rviz2-1] [INFO] [1794060642.047230945] [rviz_navigation_dialog_action_client]: NavigateToPose will be called using the BT Navigator's default behavior tree.
+[component_container_isolated-7] [INFO] [1794060642.064095159] [bt_navigator]: Received goal preemption request
+[component_container_isolated-7] [INFO] [1794060642.064427071] [bt_navigator]: Begin navigating from current location (-0.03, 0.04) to (0.41, 0.04)
+[component_container_isolated-7] [WARN] [1794060642.064553944] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[component_container_isolated-7] [INFO] [1794060642.664297966] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [INFO] [1794060643.665167928] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [WARN] [1794060644.223686921] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[component_container_isolated-7] [INFO] [1794060644.764307175] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [INFO] [1794060645.764294191] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [INFO] [1794060646.764279624] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [INFO] [1794060647.864281650] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [WARN] [1794060648.779910430] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[component_container_isolated-7] [WARN] [1794060648.784132244] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[component_container_isolated-7] [INFO] [1794060648.864301499] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [WARN] [1794060649.169219750] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[component_container_isolated-7] [WARN] [1794060649.172120333] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[component_container_isolated-7] [INFO] [1794060649.864863799] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [WARN] [1794060650.474616301] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[component_container_isolated-7] [INFO] [1794060650.864354115] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [WARN] [1794060651.742078360] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[component_container_isolated-7] [INFO] [1794060651.964285475] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [WARN] [1794060652.612429379] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[component_container_isolated-7] [INFO] [1794060652.964273950] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [WARN] [1794060653.455813789] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[component_container_isolated-7] [WARN] [1794060653.952683259] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[component_container_isolated-7] [INFO] [1794060653.964340132] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [WARN] [1794060654.384202675] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[component_container_isolated-7] [WARN] [1794060654.442044879] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[component_container_isolated-7] [INFO] [1794060654.964311732] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [INFO] [1794060656.064274092] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [INFO] [1794060657.064874891] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [INFO] [1794060657.065630880] [controller_server]: Terminal alignment latched at 0.148 m; stopping translation
+[component_container_isolated-7] [INFO] [1794060657.065912334] [controller_server]: Reached the goal!
+[component_container_isolated-7] [INFO] [1794060657.113151150] [bt_navigator]: Goal succeeded

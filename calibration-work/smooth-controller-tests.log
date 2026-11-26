@@ -1,0 +1,56 @@
+Starting >>> dianshu_controller
+UpdateCTestConfiguration  from :/home/orangepi/dianshu/build/dianshu_controller/CTestConfiguration.ini
+Parse Config file:/home/orangepi/dianshu/build/dianshu_controller/CTestConfiguration.ini
+   Site: orangepi5ultra
+   Build name: (empty)
+ Add coverage exclude regular expressions.
+Create new tag: 20261107-1302 - Experimental
+UpdateCTestConfiguration  from :/home/orangepi/dianshu/build/dianshu_controller/CTestConfiguration.ini
+Parse Config file:/home/orangepi/dianshu/build/dianshu_controller/CTestConfiguration.ini
+Test project /home/orangepi/dianshu/build/dianshu_controller
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+    Start 1: test_heading_latch
+
+1: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/orangepi/dianshu/build/dianshu_controller/test_results/dianshu_controller/test_heading_latch.gtest.xml" "--package-name" "dianshu_controller" "--output-file" "/home/orangepi/dianshu/build/dianshu_controller/ament_cmake_gtest/test_heading_latch.txt" "--command" "/home/orangepi/dianshu/build/dianshu_controller/test_heading_latch" "--gtest_output=xml:/home/orangepi/dianshu/build/dianshu_controller/test_results/dianshu_controller/test_heading_latch.gtest.xml"
+1: Test timeout computed to be: 60
+1: -- run_test.py: invoking following command in '/home/orangepi/dianshu/build/dianshu_controller':
+1:  - /home/orangepi/dianshu/build/dianshu_controller/test_heading_latch --gtest_output=xml:/home/orangepi/dianshu/build/dianshu_controller/test_results/dianshu_controller/test_heading_latch.gtest.xml
+1: Running main() from /opt/ros/humble/src/gtest_vendor/src/gtest_main.cc
+1: [==========] Running 5 tests from 1 test suite.
+1: [----------] Global test environment set-up.
+1: [----------] 5 tests from HeadingLatch
+1: [ RUN      ] HeadingLatch.PositivePiBranchDoesNotReverse
+1: [       OK ] HeadingLatch.PositivePiBranchDoesNotReverse (0 ms)
+1: [ RUN      ] HeadingLatch.NegativePiBranchDoesNotReverse
+1: [       OK ] HeadingLatch.NegativePiBranchDoesNotReverse (0 ms)
+1: [ RUN      ] HeadingLatch.TurnsSmoothlyAndStopsWithoutReversing
+1: [       OK ] HeadingLatch.TurnsSmoothlyAndStopsWithoutReversing (1 ms)
+1: [ RUN      ] HeadingLatch.OvershootStopsRatherThanTakingLongWay
+1: [       OK ] HeadingLatch.OvershootStopsRatherThanTakingLongWay (0 ms)
+1: [ RUN      ] HeadingLatch.NewGoalResetCanChooseOppositeDirection
+1: [       OK ] HeadingLatch.NewGoalResetCanChooseOppositeDirection (0 ms)
+1: [----------] 5 tests from HeadingLatch (1 ms total)
+1: 
+1: [----------] Global test environment tear-down
+1: [==========] 5 tests from 1 test suite ran. (1 ms total)
+1: [  PASSED  ] 5 tests.
+1: -- run_test.py: return code 0
+1: -- run_test.py: inject classname prefix into gtest result file '/home/orangepi/dianshu/build/dianshu_controller/test_results/dianshu_controller/test_heading_latch.gtest.xml'
+1: -- run_test.py: verify result file '/home/orangepi/dianshu/build/dianshu_controller/test_results/dianshu_controller/test_heading_latch.gtest.xml'
+1/1 Test #1: test_heading_latch ...............   Passed    0.20 sec
+
+100% tests passed, 0 tests failed out of 1
+
+Label Time Summary:
+gtest    =   0.20 sec*proc (1 test)
+
+Total Test time (real) =   0.20 sec
+Finished <<< dianshu_controller [0.34s]
+
+Summary: 1 package finished [0.81s]

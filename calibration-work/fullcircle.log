@@ -1,0 +1,6 @@
+stationary_before 0 5
+ccw 0.185302018885184 33.908887
+stationary_middle 0 4
+cw -0.185302018885184 33.908887
+stationary_after 0 4
+SAVED fullcircle {'odom': 820, 'imu': 822, 'scan': 818, 'command': 1453}

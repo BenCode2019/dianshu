@@ -1,0 +1,67 @@
+[INFO] [launch]: All log files can be found below /home/orangepi/.ros/log/2026-11-07-20-19-31-827474-orangepi5ultra-16004
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [sllidar_node-1]: process started with pid [16006]
+[INFO] [static_transform_publisher-2]: process started with pid [16008]
+[INFO] [dianshu_base-3]: process started with pid [16010]
+[INFO] [static_transform_publisher-4]: process started with pid [16012]
+[INFO] [static_transform_publisher-5]: process started with pid [16014]
+[static_transform_publisher-5] [INFO] [1794053971.945365602] [static_tf_pub_imu]: Spinning until stopped - publishing transform
+[static_transform_publisher-5] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-5] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-5] from 'base_link' to 'imu_link'
+[sllidar_node-1] [INFO] [1794053971.949017227] [sllidar_node]: SLLidar running on ROS2 package SLLidar.ROS2 SDK Version:1.0.1, SLLIDAR SDK Version:2.1.0
+[static_transform_publisher-4] [INFO] [1794053971.956327769] [static_tf_pub_base_footprint]: Spinning until stopped - publishing transform
+[static_transform_publisher-4] translation: ('-0.025000', '0.000000', '-0.025000')
+[static_transform_publisher-4] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-4] from '/base_link' to '/base_footprint'
+[static_transform_publisher-2] [INFO] [1794053971.963260315] [static_tf_pub_laser]: Spinning until stopped - publishing transform
+[static_transform_publisher-2] translation: ('-0.035000', '0.000000', '0.130000')
+[static_transform_publisher-2] rotation: ('0.000000', '0.000000', '1.000000', '0.000000')
+[static_transform_publisher-2] from '/base_link' to '/laser'
+[sllidar_node-1] [INFO] [1794053972.460802095] [sllidar_node]: SLLidar S/N: 80FDE195C1E79ED9B5E29EF1042A4A7C
+[sllidar_node-1] [INFO] [1794053972.460917011] [sllidar_node]: Firmware Ver: 1.02
+[sllidar_node-1] [INFO] [1794053972.460941802] [sllidar_node]: Hardware Rev: 18
+[sllidar_node-1] [INFO] [1794053972.463520106] [sllidar_node]: SLLidar health status : 0
+[sllidar_node-1] [INFO] [1794053972.463597397] [sllidar_node]: SLLidar health status : OK.
+[dianshu_base-3] [INFO] [1794053972.668355852] [dianshu_base_node]: base_driver node start
+[dianshu_base-3] [INFO] [1794053972.669366174] [dianshu_base_node]: serial_port:/dev/serial/by-id/usb-1a86_USB_Serial-if00-port0
+[dianshu_base-3] [INFO] [1794053972.709685630] [dianshu_base_node]: base_driver init success
+[sllidar_node-1] [INFO] [1794053972.740978273] [sllidar_node]: current scan mode: Standard, sample rate: 5 Khz, max_distance: 16.0 m, scan frequency:10.0 Hz, 
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[ERROR] [static_transform_publisher-5]: process[static_transform_publisher-5] failed to terminate '5' seconds after receiving 'SIGINT', escalating to 'SIGTERM'
+[ERROR] [static_transform_publisher-4]: process[static_transform_publisher-4] failed to terminate '5' seconds after receiving 'SIGINT', escalating to 'SIGTERM'
+[ERROR] [dianshu_base-3]: process[dianshu_base-3] failed to terminate '5' seconds after receiving 'SIGINT', escalating to 'SIGTERM'
+[ERROR] [static_transform_publisher-2]: process[static_transform_publisher-2] failed to terminate '5' seconds after receiving 'SIGINT', escalating to 'SIGTERM'
+[ERROR] [sllidar_node-1]: process[sllidar_node-1] failed to terminate '5' seconds after receiving 'SIGINT', escalating to 'SIGTERM'
+[INFO] [static_transform_publisher-5]: sending signal 'SIGTERM' to process[static_transform_publisher-5]
+[INFO] [static_transform_publisher-4]: sending signal 'SIGTERM' to process[static_transform_publisher-4]
+[INFO] [dianshu_base-3]: sending signal 'SIGTERM' to process[dianshu_base-3]
+[INFO] [static_transform_publisher-2]: sending signal 'SIGTERM' to process[static_transform_publisher-2]
+[INFO] [sllidar_node-1]: sending signal 'SIGTERM' to process[sllidar_node-1]
+[static_transform_publisher-5] [INFO] [1794054055.253195766] [rclcpp]: signal_handler(signum=15)
+[static_transform_publisher-4] [INFO] [1794054055.258746703] [rclcpp]: signal_handler(signum=15)
+[static_transform_publisher-2] [INFO] [1794054055.272263840] [rclcpp]: signal_handler(signum=15)
+[sllidar_node-1] [INFO] [1794054055.277275200] [rclcpp]: signal_handler(signum=15)
+[dianshu_base-3] Traceback (most recent call last):
+[dianshu_base-3]   File "/home/orangepi/dianshu/install/dianshu_base/lib/dianshu_base/dianshu_base", line 33, in <module>
+[dianshu_base-3]     sys.exit(load_entry_point('dianshu-base==1.0.0', 'console_scripts', 'dianshu_base')())
+[dianshu_base-3]   File "/home/orangepi/dianshu/install/dianshu_base/lib/python3.10/site-packages/dianshu_base/base_driver.py", line 481, in main
+[dianshu_base-3]     rclpy.spin(newbee_car_driver_node)
+[dianshu_base-3]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 229, in spin
+[dianshu_base-3]     executor.spin_once()
+[dianshu_base-3]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 751, in spin_once
+[dianshu_base-3]     self._spin_once_impl(timeout_sec)
+[dianshu_base-3]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 740, in _spin_once_impl
+[dianshu_base-3]     handler, entity, node = self.wait_for_ready_callbacks(timeout_sec=timeout_sec)
+[dianshu_base-3]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 723, in wait_for_ready_callbacks
+[dianshu_base-3]     return next(self._cb_iter)
+[dianshu_base-3]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 624, in _wait_for_ready_callbacks
+[dianshu_base-3]     raise ExternalShutdownException()
+[dianshu_base-3] rclpy.executors.ExternalShutdownException
+[INFO] [static_transform_publisher-5]: process has finished cleanly [pid 16014]
+[INFO] [static_transform_publisher-2]: process has finished cleanly [pid 16008]
+[INFO] [static_transform_publisher-4]: process has finished cleanly [pid 16012]
+[ERROR] [dianshu_base-3]: process has died [pid 16010, exit code 1, cmd '/home/orangepi/dianshu/install/dianshu_base/lib/dianshu_base/dianshu_base --ros-args -r __node:=dianshu_base_node --params-file /home/orangepi/dianshu/install/dianshu_base/share/dianshu_base/config/imu.yaml --params-file /home/orangepi/dianshu/install/dianshu_base/share/dianshu_base/config/drive.yaml --params-file /tmp/launch_params_rfkdhv82'].
+[sllidar_node-1] terminate called after throwing an instance of 'rclcpp::exceptions::RCLError'
+[sllidar_node-1]   what():  failed to create guard condition: the given context is not valid, either rcl_init() was not called or rcl_shutdown() was called., at ./src/rcl/guard_condition.c:67
+[ERROR] [sllidar_node-1]: process has died [pid 16006, exit code -6, cmd '/home/orangepi/dianshu/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node --ros-args -r __node:=sllidar_node --params-file /tmp/launch_params_fat33nxm'].

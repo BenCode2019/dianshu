@@ -1,0 +1,11 @@
+/**:
+  ros__parameters:
+    # Independent command and feedback gains, fitted against LiDAR scan matching.
+    # Direction is ROS yaw: ccw positive, cw negative.
+    command_angular_scale_ccw: 0.8389261744966443
+    command_angular_scale_cw: 0.8928571428571428
+    odom_angular_scale_ccw: 1.192
+    odom_angular_scale_cw: 1.12
+    cmd_vel_timeout: 0.5
+    # Measured firmware plateaus in a 185/195/200/205/215 PPS sweep.
+    wheel_speed_quantum_pps: 50.0

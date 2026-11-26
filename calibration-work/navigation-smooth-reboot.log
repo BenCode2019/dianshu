@@ -1,0 +1,772 @@
+[INFO] [launch]: All log files can be found below /home/orangepi/.ros/log/2026-11-07-22-04-05-646788-orangepi5ultra-4478
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [rviz2-1]: process started with pid [4480]
+[INFO] [sllidar_node-2]: process started with pid [4482]
+[INFO] [static_transform_publisher-3]: process started with pid [4484]
+[INFO] [dianshu_base-4]: process started with pid [4486]
+[INFO] [static_transform_publisher-5]: process started with pid [4488]
+[INFO] [static_transform_publisher-6]: process started with pid [4490]
+[static_transform_publisher-5] [INFO] [1794060246.067777130] [static_tf_pub_base_footprint]: Spinning until stopped - publishing transform
+[static_transform_publisher-5] translation: ('-0.025000', '0.000000', '-0.025000')
+[static_transform_publisher-5] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-5] from '/base_link' to '/base_footprint'
+[static_transform_publisher-6] [INFO] [1794060246.067955639] [static_tf_pub_imu]: Spinning until stopped - publishing transform
+[static_transform_publisher-6] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-6] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-6] from 'base_link' to 'imu_link'
+[static_transform_publisher-3] [INFO] [1794060246.068585672] [static_tf_pub_laser]: Spinning until stopped - publishing transform
+[static_transform_publisher-3] translation: ('-0.035000', '0.000000', '0.130000')
+[static_transform_publisher-3] rotation: ('0.000000', '0.000000', '1.000000', '0.000000')
+[static_transform_publisher-3] from '/base_link' to '/laser'
+[sllidar_node-2] [INFO] [1794060246.068733555] [sllidar_node]: SLLidar running on ROS2 package SLLidar.ROS2 SDK Version:1.0.1, SLLIDAR SDK Version:2.1.0
+[sllidar_node-2] [INFO] [1794060246.577220078] [sllidar_node]: SLLidar S/N: 80FDE195C1E79ED9B5E29EF1042A4A7C
+[sllidar_node-2] [INFO] [1794060246.577492509] [sllidar_node]: Firmware Ver: 1.02
+[sllidar_node-2] [INFO] [1794060246.577549679] [sllidar_node]: Hardware Rev: 18
+[sllidar_node-2] [INFO] [1794060246.580293532] [sllidar_node]: SLLidar health status : 0
+[sllidar_node-2] [INFO] [1794060246.580396787] [sllidar_node]: SLLidar health status : OK.
+[rviz2-1] [INFO] [1794060246.702436296] [rviz2]: Stereo is NOT SUPPORTED
+[rviz2-1] [INFO] [1794060246.702803815] [rviz2]: OpenGl version: 3 (GLSL 1.3)
+[rviz2-1] [INFO] [1794060246.814261559] [rviz2]: Stereo is NOT SUPPORTED
+[sllidar_node-2] [INFO] [1794060246.861979238] [sllidar_node]: current scan mode: Standard, sample rate: 5 Khz, max_distance: 16.0 m, scan frequency:10.0 Hz, 
+[dianshu_base-4] [INFO] [1794060247.786839559] [dianshu_base_node]: base_driver node start
+[dianshu_base-4] [INFO] [1794060247.788118001] [dianshu_base_node]: serial_port:/dev/serial/by-id/usb-1a86_USB_Serial-if00-port0
+[dianshu_base-4] [INFO] [1794060247.877365117] [dianshu_base_node]: base_driver init success
+[rviz2-1] [INFO] [1794060248.866307062] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060247.887 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060248.962360286] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060247.957 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060249.058480597] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060248.059 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060249.187269294] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060248.160 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060249.250595795] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060248.258 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060249.379004639] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060248.365 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060249.474859436] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060248.451 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060249.572044095] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060248.558 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060249.667230440] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060248.658 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060249.762318780] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060248.749 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060249.859103834] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060248.860 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060249.954957340] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060248.958 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060249.986404162] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060248.864 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060250.050983437] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060249.048 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060250.083048042] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060249.094 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060250.179191104] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060249.179 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060250.179418616] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060249.158 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060250.276531521] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060249.248 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060250.306855368] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060249.262 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060250.370220371] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060249.347 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060250.402701789] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060249.347 for reason 'discarding message because the queue is full'
+[INFO] [component_container_isolated-7]: process started with pid [4584]
+[rviz2-1] [INFO] [1794060250.467610082] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060249.447 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060250.498127314] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060249.432 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060250.562761425] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060249.549 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060250.591077333] [nav2_container]: Load Library: /opt/ros/humble/lib/libmap_server_core.so
+[rviz2-1] [INFO] [1794060250.595253636] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060249.518 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060250.639459047] [nav2_container]: Found class: rclcpp_components::NodeFactoryTemplate<nav2_map_server::CostmapFilterInfoServer>
+[component_container_isolated-7] [INFO] [1794060250.639555010] [nav2_container]: Found class: rclcpp_components::NodeFactoryTemplate<nav2_map_server::MapSaver>
+[component_container_isolated-7] [INFO] [1794060250.639566386] [nav2_container]: Found class: rclcpp_components::NodeFactoryTemplate<nav2_map_server::MapServer>
+[component_container_isolated-7] [INFO] [1794060250.639575428] [nav2_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<nav2_map_server::MapServer>
+[rviz2-1] [INFO] [1794060250.658400002] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060249.649 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060250.687673210] [map_server]: 
+[component_container_isolated-7] 	map_server lifecycle node launched. 
+[component_container_isolated-7] 	Waiting on external lifecycle transitions to activate
+[component_container_isolated-7] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[component_container_isolated-7] [INFO] [1794060250.687873012] [map_server]: Creating
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/map_server' in container '/nav2_container'
+[rviz2-1] [INFO] [1794060250.691040679] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060249.606 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060250.696787398] [nav2_container]: Load Library: /opt/ros/humble/lib/libcontroller_server_core.so
+[component_container_isolated-7] [INFO] [1794060250.717257643] [nav2_container]: Found class: rclcpp_components::NodeFactoryTemplate<nav2_controller::ControllerServer>
+[component_container_isolated-7] [INFO] [1794060250.717361482] [nav2_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<nav2_controller::ControllerServer>
+[rviz2-1] [INFO] [1794060250.754777577] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060249.749 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060250.759468407] [controller_server]: 
+[component_container_isolated-7] 	controller_server lifecycle node launched. 
+[component_container_isolated-7] 	Waiting on external lifecycle transitions to activate
+[component_container_isolated-7] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[component_container_isolated-7] [INFO] [1794060250.780639855] [controller_server]: Creating controller server
+[rviz2-1] [INFO] [1794060250.786509372] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060249.696 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060250.841469266] [local_costmap.local_costmap]: 
+[component_container_isolated-7] 	local_costmap lifecycle node launched. 
+[component_container_isolated-7] 	Waiting on external lifecycle transitions to activate
+[component_container_isolated-7] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[rviz2-1] [INFO] [1794060250.850957391] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060249.849 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060250.851384122] [local_costmap.local_costmap]: Creating Costmap
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/controller_server' in container '/nav2_container'
+[component_container_isolated-7] [INFO] [1794060250.855590760] [nav2_container]: Load Library: /opt/ros/humble/lib/libamcl_core.so
+[component_container_isolated-7] [INFO] [1794060250.867221872] [nav2_container]: Found class: rclcpp_components::NodeFactoryTemplate<nav2_amcl::AmclNode>
+[component_container_isolated-7] [INFO] [1794060250.867460468] [nav2_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<nav2_amcl::AmclNode>
+[rviz2-1] [INFO] [1794060250.883637445] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060249.790 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060250.933478319] [amcl]: 
+[component_container_isolated-7] 	amcl lifecycle node launched. 
+[component_container_isolated-7] 	Waiting on external lifecycle transitions to activate
+[component_container_isolated-7] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[component_container_isolated-7] [INFO] [1794060250.941407695] [amcl]: Creating
+[component_container_isolated-7] [INFO] [1794060250.959197090] [nav2_container]: Load Library: /opt/ros/humble/lib/libsmoother_server_core.so
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/amcl' in container '/nav2_container'
+[component_container_isolated-7] [INFO] [1794060250.966876786] [nav2_container]: Found class: rclcpp_components::NodeFactoryTemplate<nav2_smoother::SmootherServer>
+[component_container_isolated-7] [INFO] [1794060250.966946206] [nav2_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<nav2_smoother::SmootherServer>
+[rviz2-1] [INFO] [1794060250.978900794] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060249.948 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060251.010615672] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060249.884 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060251.018767018] [smoother_server]: 
+[component_container_isolated-7] 	smoother_server lifecycle node launched. 
+[component_container_isolated-7] 	Waiting on external lifecycle transitions to activate
+[component_container_isolated-7] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/smoother_server' in container '/nav2_container'
+[component_container_isolated-7] [INFO] [1794060251.021505037] [smoother_server]: Creating smoother server
+[component_container_isolated-7] [INFO] [1794060251.028856591] [nav2_container]: Load Library: /opt/ros/humble/lib/libnav2_lifecycle_manager_core.so
+[component_container_isolated-7] [INFO] [1794060251.031625237] [nav2_container]: Found class: rclcpp_components::NodeFactoryTemplate<nav2_lifecycle_manager::LifecycleManager>
+[component_container_isolated-7] [INFO] [1794060251.031728784] [nav2_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<nav2_lifecycle_manager::LifecycleManager>
+[component_container_isolated-7] [INFO] [1794060251.067877812] [lifecycle_manager_localization]: Creating
+[rviz2-1] [INFO] [1794060251.074560539] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060250.047 for reason 'discarding message because the queue is full'
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/lifecycle_manager_localization' in container '/nav2_container'
+[component_container_isolated-7] [INFO] [1794060251.083743272] [lifecycle_manager_localization]: [34m[1mCreating and initializing lifecycle service clients[0m[0m
+[component_container_isolated-7] [INFO] [1794060251.083965534] [nav2_container]: Load Library: /opt/ros/humble/lib/libplanner_server_core.so
+[component_container_isolated-7] [INFO] [1794060251.096172427] [nav2_container]: Found class: rclcpp_components::NodeFactoryTemplate<nav2_planner::PlannerServer>
+[component_container_isolated-7] [INFO] [1794060251.096296975] [nav2_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<nav2_planner::PlannerServer>
+[rviz2-1] [INFO] [1794060251.106553390] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060249.980 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060251.131260608] [lifecycle_manager_localization]: [34m[1mStarting managed nodes bringup...[0m[0m
+[component_container_isolated-7] [INFO] [1794060251.131493370] [lifecycle_manager_localization]: [34m[1mConfiguring map_server[0m[0m
+[component_container_isolated-7] [INFO] [1794060251.134202221] [map_server]: Configuring
+[component_container_isolated-7] [INFO] [1794060251.134408732] [map_io]: Loading yaml file: /home/orangepi/dianshu/install/dianshu_nav/share/dianshu_nav/maps/map.yaml
+[component_container_isolated-7] [INFO] [1794060251.135866850] [map_io]: resolution: 0.025
+[component_container_isolated-7] [INFO] [1794060251.135914103] [map_io]: origin[0]: -1.26
+[component_container_isolated-7] [INFO] [1794060251.135939187] [map_io]: origin[1]: -0.496
+[component_container_isolated-7] [INFO] [1794060251.135961064] [map_io]: origin[2]: 0
+[component_container_isolated-7] [INFO] [1794060251.135982940] [map_io]: free_thresh: 0.25
+[component_container_isolated-7] [INFO] [1794060251.136005108] [map_io]: occupied_thresh: 0.65
+[component_container_isolated-7] [INFO] [1794060251.136030484] [map_io]: mode: trinary
+[component_container_isolated-7] [INFO] [1794060251.136053818] [map_io]: negate: 0
+[component_container_isolated-7] [INFO] [1794060251.147574092] [map_io]: Loading image_file: /home/orangepi/dianshu/install/dianshu_nav/share/dianshu_nav/maps/map.pgm
+[rviz2-1] [INFO] [1794060251.171480350] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060250.148 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060251.174555262] [planner_server]: 
+[component_container_isolated-7] 	planner_server lifecycle node launched. 
+[component_container_isolated-7] 	Waiting on external lifecycle transitions to activate
+[component_container_isolated-7] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[component_container_isolated-7] [INFO] [1794060251.176724793] [map_io]: Read map /home/orangepi/dianshu/install/dianshu_nav/share/dianshu_nav/maps/map.pgm: 108 X 111 map @ 0.025 m/cell
+[component_container_isolated-7] [INFO] [1794060251.176839716] [planner_server]: Creating
+[component_container_isolated-7] [INFO] [1794060251.200426874] [lifecycle_manager_localization]: [34m[1mConfiguring amcl[0m[0m
+[component_container_isolated-7] [INFO] [1794060251.200744808] [amcl]: Configuring
+[component_container_isolated-7] [INFO] [1794060251.201084617] [amcl]: initTransforms
+[rviz2-1] [INFO] [1794060251.202809042] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060250.077 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060251.232074374] [amcl]: initPubSub
+[component_container_isolated-7] [INFO] [1794060251.254119701] [amcl]: Subscribed to map topic.
+[rviz2-1] [INFO] [1794060251.267187056] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060250.248 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060251.278283515] [global_costmap.global_costmap]: 
+[component_container_isolated-7] 	global_costmap lifecycle node launched. 
+[component_container_isolated-7] 	Waiting on external lifecycle transitions to activate
+[component_container_isolated-7] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[component_container_isolated-7] [INFO] [1794060251.279010387] [global_costmap.global_costmap]: Creating Costmap
+[component_container_isolated-7] [INFO] [1794060251.280219992] [lifecycle_manager_localization]: [34m[1mActivating map_server[0m[0m
+[component_container_isolated-7] [INFO] [1794060251.280533259] [map_server]: Activating
+[component_container_isolated-7] [INFO] [1794060251.280948906] [map_server]: Creating bond (map_server) to lifecycle manager.
+[component_container_isolated-7] [INFO] [1794060251.280957656] [amcl]: Received a 108 X 111 map @ 0.025 m/pix
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/planner_server' in container '/nav2_container'
+[component_container_isolated-7] [INFO] [1794060251.299396044] [nav2_container]: Load Library: /opt/ros/humble/lib/libbehavior_server_core.so
+[rviz2-1] [INFO] [1794060251.299862735] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060250.176 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060251.320503613] [nav2_container]: Found class: rclcpp_components::NodeFactoryTemplate<behavior_server::BehaviorServer>
+[component_container_isolated-7] [INFO] [1794060251.320697874] [nav2_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<behavior_server::BehaviorServer>
+[rviz2-1] [INFO] [1794060251.362590121] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060250.348 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060251.364037739] [behavior_server]: 
+[component_container_isolated-7] 	behavior_server lifecycle node launched. 
+[component_container_isolated-7] 	Waiting on external lifecycle transitions to activate
+[component_container_isolated-7] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/behavior_server' in container '/nav2_container'
+[component_container_isolated-7] [INFO] [1794060251.384125880] [nav2_container]: Load Library: /opt/ros/humble/lib/libbt_navigator_core.so
+[component_container_isolated-7] [INFO] [1794060251.393764221] [nav2_container]: Found class: rclcpp_components::NodeFactoryTemplate<nav2_bt_navigator::BtNavigator>
+[component_container_isolated-7] [INFO] [1794060251.393855226] [nav2_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<nav2_bt_navigator::BtNavigator>
+[rviz2-1] [INFO] [1794060251.395464144] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060250.278 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060251.404583874] [lifecycle_manager_localization]: Server map_server connected with bond.
+[component_container_isolated-7] [INFO] [1794060251.404699380] [lifecycle_manager_localization]: [34m[1mActivating amcl[0m[0m
+[component_container_isolated-7] [INFO] [1794060251.405122902] [amcl]: Activating
+[component_container_isolated-7] [INFO] [1794060251.405222657] [amcl]: Creating bond (amcl) to lifecycle manager.
+[rviz2-1] [INFO] [1794060251.459347174] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060250.448 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060251.466880445] [bt_navigator]: 
+[component_container_isolated-7] 	bt_navigator lifecycle node launched. 
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/bt_navigator' in container '/nav2_container'
+[component_container_isolated-7] 	Waiting on external lifecycle transitions to activate
+[component_container_isolated-7] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[component_container_isolated-7] [INFO] [1794060251.467038245] [bt_navigator]: Creating
+[component_container_isolated-7] [INFO] [1794060251.480908309] [nav2_container]: Load Library: /opt/ros/humble/lib/libwaypoint_follower_core.so
+[component_container_isolated-7] [INFO] [1794060251.484861184] [nav2_container]: Found class: rclcpp_components::NodeFactoryTemplate<nav2_waypoint_follower::WaypointFollower>
+[component_container_isolated-7] [INFO] [1794060251.484933813] [nav2_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<nav2_waypoint_follower::WaypointFollower>
+[component_container_isolated-7] [INFO] [1794060251.486582399] [amcl]: createLaserObject
+[rviz2-1] [INFO] [1794060251.491049510] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060250.377 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060251.532840543] [waypoint_follower]: 
+[component_container_isolated-7] 	waypoint_follower lifecycle node launched. 
+[component_container_isolated-7] 	Waiting on external lifecycle transitions to activate
+[component_container_isolated-7] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[component_container_isolated-7] [INFO] [1794060251.541861977] [waypoint_follower]: Creating
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/waypoint_follower' in container '/nav2_container'
+[component_container_isolated-7] [INFO] [1794060251.545809310] [lifecycle_manager_localization]: Server amcl connected with bond.
+[component_container_isolated-7] [INFO] [1794060251.545917815] [lifecycle_manager_localization]: [34m[1mManaged nodes are active[0m[0m
+[component_container_isolated-7] [INFO] [1794060251.545983152] [lifecycle_manager_localization]: [34m[1mCreating bond timer...[0m[0m
+[component_container_isolated-7] [INFO] [1794060251.550881368] [nav2_container]: Load Library: /opt/ros/humble/lib/libvelocity_smoother_core.so
+[component_container_isolated-7] [INFO] [1794060251.555396606] [nav2_container]: Found class: rclcpp_components::NodeFactoryTemplate<nav2_velocity_smoother::VelocitySmoother>
+[component_container_isolated-7] [INFO] [1794060251.555487611] [nav2_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<nav2_velocity_smoother::VelocitySmoother>
+[rviz2-1] [INFO] [1794060251.555611867] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060250.548 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060251.587209198] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060250.478 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060251.592406680] [velocity_smoother]: 
+[component_container_isolated-7] 	velocity_smoother lifecycle node launched. 
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/velocity_smoother' in container '/nav2_container'
+[component_container_isolated-7] 	Waiting on external lifecycle transitions to activate
+[component_container_isolated-7] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[component_container_isolated-7] [INFO] [1794060251.601013925] [nav2_container]: Found class: rclcpp_components::NodeFactoryTemplate<nav2_lifecycle_manager::LifecycleManager>
+[component_container_isolated-7] [INFO] [1794060251.601107263] [nav2_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<nav2_lifecycle_manager::LifecycleManager>
+[rviz2-1] [INFO] [1794060251.621600550] [rviz2]: Trying to create a map of size 108 x 111 using 1 swatches
+[component_container_isolated-7] [INFO] [1794060251.623029500] [lifecycle_manager_navigation]: Creating
+[component_container_isolated-7] [INFO] [1794060251.628637379] [lifecycle_manager_navigation]: [34m[1mCreating and initializing lifecycle service clients[0m[0m
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/lifecycle_manager_navigation' in container '/nav2_container'
+[rviz2-1] [INFO] [1794060251.653846581] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060250.648 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060251.656114117] [lifecycle_manager_navigation]: [34m[1mStarting managed nodes bringup...[0m[0m
+[component_container_isolated-7] [INFO] [1794060251.656239249] [lifecycle_manager_navigation]: [34m[1mConfiguring controller_server[0m[0m
+[component_container_isolated-7] [INFO] [1794060251.656584892] [controller_server]: Configuring controller interface
+[component_container_isolated-7] [INFO] [1794060251.657133546] [controller_server]: getting goal checker plugins..
+[component_container_isolated-7] [INFO] [1794060251.657433687] [controller_server]: Controller frequency set to 10.0000Hz
+[component_container_isolated-7] [INFO] [1794060251.657548318] [local_costmap.local_costmap]: Configuring
+[rviz2-1] [ERROR] [1794060251.667823984] [rviz2]: Vertex Program:rviz/glsl120/indexed_8bit_image.vert Fragment Program:rviz/glsl120/indexed_8bit_image.frag GLSL link result : 
+[rviz2-1] active samplers with a different type refer to the same texture image unit
+[component_container_isolated-7] [INFO] [1794060251.672322887] [local_costmap.local_costmap]: Using plugin "voxel_layer"
+[component_container_isolated-7] [INFO] [1794060251.696472409] [local_costmap.local_costmap]: Subscribed to Topics: scan
+[rviz2-1] [INFO] [1794060251.714452856] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060250.578 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060251.716209948] [local_costmap.local_costmap]: Initialized plugin "voxel_layer"
+[component_container_isolated-7] [INFO] [1794060251.716287244] [local_costmap.local_costmap]: Using plugin "inflation_layer"
+[component_container_isolated-7] [INFO] [1794060251.719354864] [local_costmap.local_costmap]: Initialized plugin "inflation_layer"
+[component_container_isolated-7] [INFO] [1794060251.738814138] [controller_server]: Created progress_checker : progress_checker of type nav2_controller::SimpleProgressChecker
+[component_container_isolated-7] [INFO] [1794060251.741158095] [controller_server]: Created goal checker : general_goal_checker of type nav2_controller::SimpleGoalChecker
+[component_container_isolated-7] [INFO] [1794060251.742347866] [controller_server]: Controller Server has general_goal_checker  goal checkers available.
+[component_container_isolated-7] [INFO] [1794060251.746062437] [controller_server]: Created controller : FollowPath of type dianshu_controller::SmoothGoalController
+[rviz2-1] [INFO] [1794060251.746128648] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060250.748 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060251.763673906] [controller_server]: Controller Server has FollowPath  controllers available.
+[component_container_isolated-7] [INFO] [1794060251.778311093] [lifecycle_manager_navigation]: [34m[1mConfiguring smoother_server[0m[0m
+[component_container_isolated-7] [INFO] [1794060251.778637777] [smoother_server]: Configuring smoother server
+[component_container_isolated-7] [INFO] [1794060251.798759461] [smoother_server]: Created smoother : simple_smoother of type nav2_smoother::SimpleSmoother
+[component_container_isolated-7] [INFO] [1794060251.801966213] [smoother_server]: Smoother Server has simple_smoother  smoothers available.
+[rviz2-1] [INFO] [1794060251.810709382] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060250.678 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060251.825430574] [lifecycle_manager_navigation]: [34m[1mConfiguring planner_server[0m[0m
+[component_container_isolated-7] [INFO] [1794060251.825849429] [planner_server]: Configuring
+[component_container_isolated-7] [INFO] [1794060251.825999062] [global_costmap.global_costmap]: Configuring
+[component_container_isolated-7] [INFO] [1794060251.835663654] [global_costmap.global_costmap]: Using plugin "static_layer"
+[component_container_isolated-7] [INFO] [1794060251.839329514] [global_costmap.global_costmap]: Subscribing to the map topic (/map) with transient local durability
+[component_container_isolated-7] [INFO] [1794060251.840708295] [global_costmap.global_costmap]: Initialized plugin "static_layer"
+[component_container_isolated-7] [INFO] [1794060251.840775090] [global_costmap.global_costmap]: Using plugin "obstacle_layer"
+[rviz2-1] [INFO] [1794060251.842239042] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060250.848 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060251.843198384] [global_costmap.global_costmap]: Subscribed to Topics: scan
+[component_container_isolated-7] [INFO] [1794060251.851307728] [global_costmap.global_costmap]: Initialized plugin "obstacle_layer"
+[component_container_isolated-7] [INFO] [1794060251.851369273] [global_costmap.global_costmap]: Using plugin "inflation_layer"
+[component_container_isolated-7] [INFO] [1794060251.853745023] [global_costmap.global_costmap]: Initialized plugin "inflation_layer"
+[component_container_isolated-7] [INFO] [1794060251.873426268] [planner_server]: Created global planner plugin GridBased of type nav2_navfn_planner/NavfnPlanner
+[component_container_isolated-7] [INFO] [1794060251.873501230] [planner_server]: Configuring plugin GridBased of type NavfnPlanner
+[component_container_isolated-7] [INFO] [1794060251.874760713] [planner_server]: Planner Server has GridBased  planners available.
+[component_container_isolated-7] [INFO] [1794060251.898430709] [lifecycle_manager_navigation]: [34m[1mConfiguring behavior_server[0m[0m
+[component_container_isolated-7] [INFO] [1794060251.898903817] [behavior_server]: Configuring
+[rviz2-1] [INFO] [1794060251.907188754] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060250.779 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060251.910631185] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 108 X 111 at 0.025000 m/pix
+[component_container_isolated-7] [INFO] [1794060251.927162555] [behavior_server]: Creating behavior plugin spin of type nav2_behaviors/Spin
+[component_container_isolated-7] [INFO] [1794060251.936871483] [behavior_server]: Configuring spin
+[rviz2-1] [INFO] [1794060251.938444816] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060250.949 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060251.965826174] [behavior_server]: Creating behavior plugin backup of type nav2_behaviors/BackUp
+[component_container_isolated-7] [INFO] [1794060251.970150944] [behavior_server]: Configuring backup
+[component_container_isolated-7] [INFO] [1794060251.995168803] [behavior_server]: Creating behavior plugin drive_on_heading of type nav2_behaviors/DriveOnHeading
+[component_container_isolated-7] [INFO] [1794060251.997870653] [behavior_server]: Configuring drive_on_heading
+[rviz2-1] [INFO] [1794060252.002593568] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060250.881 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060252.018926595] [behavior_server]: Creating behavior plugin assisted_teleop of type nav2_behaviors/AssistedTeleop
+[component_container_isolated-7] [INFO] [1794060252.025169174] [behavior_server]: Configuring assisted_teleop
+[component_container_isolated-7] [INFO] [1794060252.051768533] [behavior_server]: Creating behavior plugin wait of type nav2_behaviors/Wait
+[component_container_isolated-7] [INFO] [1794060252.055120834] [behavior_server]: Configuring wait
+[rviz2-1] [INFO] [1794060252.067605700] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060251.049 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060252.076713179] [lifecycle_manager_navigation]: [34m[1mConfiguring bt_navigator[0m[0m
+[component_container_isolated-7] [INFO] [1794060252.077338546] [bt_navigator]: Configuring
+[rviz2-1] [INFO] [1794060252.099471378] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060250.982 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060252.162965887] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060251.138 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060252.194520341] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060251.082 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060252.258562046] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060251.247 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060252.283784665] [amcl]: Message Filter dropping message: frame 'laser' at time 1794060251.183 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-1] [INFO] [1794060252.291271560] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060251.183 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060252.355024500] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060251.337 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060252.386889594] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060251.285 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060252.408983049] [lifecycle_manager_navigation]: [34m[1mConfiguring waypoint_follower[0m[0m
+[component_container_isolated-7] [INFO] [1794060252.409399571] [waypoint_follower]: Configuring
+[rviz2-1] [INFO] [1794060252.450980010] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060251.437 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060252.451738675] [waypoint_follower]: Created waypoint_task_executor : wait_at_waypoint of type nav2_waypoint_follower::WaitAtWaypoint
+[component_container_isolated-7] [INFO] [1794060252.456251871] [waypoint_follower]: Waypoint task executor plugin is disabled.
+[component_container_isolated-7] [INFO] [1794060252.456971159] [lifecycle_manager_navigation]: [34m[1mConfiguring velocity_smoother[0m[0m
+[component_container_isolated-7] [INFO] [1794060252.457494437] [velocity_smoother]: Configuring velocity smoother
+[component_container_isolated-7] [INFO] [1794060252.483534349] [lifecycle_manager_navigation]: [34m[1mActivating controller_server[0m[0m
+[component_container_isolated-7] [INFO] [1794060252.483987040] [controller_server]: Activating
+[component_container_isolated-7] [INFO] [1794060252.484122964] [local_costmap.local_costmap]: Activating
+[component_container_isolated-7] [INFO] [1794060252.484163216] [local_costmap.local_costmap]: Checking transform
+[component_container_isolated-7] [INFO] [1794060252.484431563] [local_costmap.local_costmap]: start
+[rviz2-1] [INFO] [1794060252.484696994] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060251.383 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060252.547036026] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060251.538 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060252.580210690] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060251.486 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060252.643484146] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060251.638 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060252.707281922] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060251.586 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060252.736327326] [controller_server]: Activating controller: FollowPath of type regulated_pure_pursuit_controller::RegulatedPurePursuitController
+[component_container_isolated-7] [INFO] [1794060252.736509336] [controller_server]: Creating bond (controller_server) to lifecycle manager.
+[rviz2-1] [INFO] [1794060252.739456199] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060251.738 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060252.804321323] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060251.686 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060252.852653034] [lifecycle_manager_navigation]: Server controller_server connected with bond.
+[component_container_isolated-7] [INFO] [1794060252.852804417] [lifecycle_manager_navigation]: [34m[1mActivating smoother_server[0m[0m
+[component_container_isolated-7] [INFO] [1794060252.853510579] [smoother_server]: Activating
+[component_container_isolated-7] [INFO] [1794060252.853677130] [smoother_server]: Creating bond (smoother_server) to lifecycle manager.
+[rviz2-1] [INFO] [1794060252.866539432] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060251.837 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060252.898862759] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060251.786 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060252.963427158] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060251.937 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060252.974406945] [lifecycle_manager_navigation]: Server smoother_server connected with bond.
+[component_container_isolated-7] [INFO] [1794060252.974549286] [lifecycle_manager_navigation]: [34m[1mActivating planner_server[0m[0m
+[component_container_isolated-7] [INFO] [1794060252.975342661] [planner_server]: Activating
+[component_container_isolated-7] [INFO] [1794060252.975609550] [global_costmap.global_costmap]: Activating
+[component_container_isolated-7] [INFO] [1794060252.975661469] [global_costmap.global_costmap]: Checking transform
+[component_container_isolated-7] [INFO] [1794060252.975793309] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-1] [INFO] [1794060252.995424968] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060251.891 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060253.058854141] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060252.037 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060253.090807324] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060251.986 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060253.155316928] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060252.139 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060253.187342156] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060252.089 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060253.251300149] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060252.237 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [WARN] [1794060253.274098016] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[rviz2-1] [INFO] [1794060253.282985275] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060252.184 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060253.346958727] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060252.340 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060253.378747984] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060252.281 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060253.443350302] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060252.437 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060253.475062555] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060252.380 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060253.475864973] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-1] [INFO] [1794060253.538966003] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060252.537 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060253.603315141] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060252.478 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060253.635285241] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060252.637 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060253.699404367] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060252.579 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060253.731580978] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060252.737 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060253.794728386] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060252.677 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060253.858900765] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060252.837 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060253.890855406] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060252.776 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060253.954984033] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060252.938 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060253.976427620] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-1] [INFO] [1794060253.986971925] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060252.874 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060254.051184556] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060253.038 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060254.082662880] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060252.978 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060254.148232999] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060253.139 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060254.179417016] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060253.073 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060254.242782769] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060253.229 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060254.306695843] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060253.173 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060254.339249348] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060253.328 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060254.403517274] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060253.274 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060254.436833486] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060253.428 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060254.475907710] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-1] [INFO] [1794060254.499160601] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060253.376 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060254.531241832] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060253.528 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060254.595014315] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060253.476 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060254.658819841] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060253.627 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060254.691355804] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060253.576 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060254.691767367] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060252.638 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060254.755366591] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060253.727 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060254.787400861] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060253.676 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060254.851482235] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060253.828 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060254.883106983] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060253.777 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060254.915777037] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060252.838 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060254.948067404] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060253.927 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060254.981957646] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-1] [INFO] [1794060255.012676222] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060253.877 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060255.043467343] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060254.028 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060255.078258925] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060253.977 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060255.107172489] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060253.042 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060255.138794904] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060254.128 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060255.203078122] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060254.077 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060255.234759749] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060254.229 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060255.298829164] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060254.177 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060255.299080302] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060253.231 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060255.332510062] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060254.332 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [WARN] [1794060255.374702867] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[rviz2-1] [INFO] [1794060255.398913642] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060254.277 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060255.459697550] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060254.429 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060255.475880944] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-1] [INFO] [1794060255.491364884] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060254.380 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060255.491606981] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060253.429 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060255.555165369] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060254.527 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060255.587047672] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060254.481 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060255.619440003] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060254.628 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060255.683510876] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060254.580 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060255.715484185] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060253.628 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060255.747327111] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060254.729 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060255.778730182] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060254.681 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060255.843074069] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060254.828 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060255.907282867] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060254.777 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060255.907535172] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060253.828 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060255.940569828] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060254.928 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060255.973817078] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060254.877 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060255.975867020] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-1] [INFO] [1794060256.035690711] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060255.028 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060256.098805451] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060254.983 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060256.099067673] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060254.029 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060256.131685015] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060255.128 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060256.195568337] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060255.077 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060256.227805326] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060255.228 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060256.292922463] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060255.174 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060256.293410739] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060254.233 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060256.323745628] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060255.329 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060256.386851992] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060255.273 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060256.420270960] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060255.428 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060256.475869054] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-1] [INFO] [1794060256.483376074] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060255.374 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060256.515536059] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060254.432 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060256.546797955] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060255.528 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060256.579584348] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060255.472 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060256.643606052] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060255.618 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060256.707587671] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060255.573 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060256.707903854] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060254.630 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060256.739420681] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060255.728 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060256.803597143] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060255.675 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060256.835624413] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060255.817 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060256.898721651] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060255.775 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060256.899025584] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060254.829 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060256.931547255] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060255.917 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060256.975877380] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-1] [INFO] [1794060256.995107393] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060255.877 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060257.029685422] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060256.019 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060257.092518397] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060255.972 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060257.092803078] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060255.029 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060257.122671609] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060256.118 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060257.187005580] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060256.074 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060257.219464747] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060256.218 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060257.315301877] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060256.171 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060257.315497887] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060255.228 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060257.347156137] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060256.318 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [WARN] [1794060257.385069009] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[rviz2-1] [INFO] [1794060257.410690858] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060256.282 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060257.442472239] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060256.418 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060257.475869831] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-1] [INFO] [1794060257.506922591] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060256.373 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060257.507240233] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060255.429 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060257.539655440] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060256.518 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060257.603449965] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060256.477 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060257.634352342] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060256.617 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060257.699163546] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060256.577 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060257.699415851] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060255.619 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060257.730482404] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060256.717 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060257.794559694] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060256.679 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060257.826572380] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060256.818 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060257.891155738] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060256.780 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060257.891346207] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060255.819 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060257.923773664] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060256.921 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060257.975867907] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-1] [INFO] [1794060257.987004035] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060256.884 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060258.019564708] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060257.018 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060258.117230933] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060256.980 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060258.117549450] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060257.117 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060258.117901510] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060256.021 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060258.212770797] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060257.083 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060258.213103898] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060257.217 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060258.307704254] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060257.185 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060258.308007311] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060256.219 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060258.340988381] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060257.319 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060258.403539883] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060257.285 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060258.435854668] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060257.422 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060258.475915944] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-1] [INFO] [1794060258.499042703] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060257.385 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060258.499316593] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060256.419 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060258.531863473] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060257.518 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060258.595446404] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060257.489 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060258.622750758] [rviz2]: Setting estimate pose: Frame:map, Position(-0.14375, 0.0312506, 0), Orientation(0, 0, 0.0042352, 0.999991) = Angle: 0.00847042
+[component_container_isolated-7] [INFO] [1794060258.623739560] [amcl]: initialPoseReceived
+[component_container_isolated-7] [WARN] [1794060258.624127498] [amcl]: Failed to transform initial pose in time (Lookup would require extrapolation into the future.  Requested time 1794060258.623895 but the latest data is at time 1794060258.609060, when looking up transform from frame [base_footprint] to frame [odom])
+[component_container_isolated-7] [INFO] [1794060258.624197210] [amcl]: Setting pose (1794060258.624194): -0.144 0.031 0.008
+[rviz2-1] [INFO] [1794060258.627469007] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060257.618 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060258.692232333] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060257.586 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060258.692620854] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060252.688 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060258.692771362] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060256.618 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060258.722975035] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060257.709 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060258.789748926] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060257.687 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060258.819000550] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060257.810 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060258.916100871] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060257.785 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060258.918846765] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060257.908 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060258.919140197] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060256.818 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060258.975930687] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Lookup would require extrapolation into the past.  Requested time 1794060258.912039 but the earliest data is at time 1794060259.584764, when looking up transform from frame [base_link] to frame [map]
+[rviz2-1] [INFO] [1794060259.011550896] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060257.885 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060259.013039350] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060258.008 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060259.109167911] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060257.985 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060259.110269469] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060257.019 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060259.139563386] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060258.108 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060259.203101648] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060258.088 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060259.236085343] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060258.208 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060259.300360394] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060258.187 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060259.300766416] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060253.287 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060259.300969135] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060257.218 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060259.331480533] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060258.307 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060259.395324478] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060258.287 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060259.427668806] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060258.407 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060259.475958515] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Lookup would require extrapolation into the past.  Requested time 1794060259.408050 but the earliest data is at time 1794060259.584764, when looking up transform from frame [base_link] to frame [map]
+[rviz2-1] [INFO] [1794060259.491728595] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060258.389 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060259.492047987] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060257.424 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060259.523753531] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060258.508 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060259.587508805] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060258.488 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060259.619355523] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060258.608 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060259.683451190] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060258.585 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060259.715568297] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060257.619 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060259.779736301] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060258.685 for reason 'discarding message because the queue is full'
+[rviz2-1] [ERROR] [1794060259.791487003] [rviz2]: Lookup would require extrapolation into the future.  Requested time 1794060259.775120 but the latest data is at time 1794060259.708164, when looking up transform from frame [laser] to frame [map]
+[rviz2-1] [INFO] [1794060259.908285236] [rviz2]: Message Filter dropping message: frame 'odom' at time 1794060253.886 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060259.913637601] [rviz2]: Trying to create a map of size 120 x 120 using 1 swatches
+[component_container_isolated-7] [INFO] [1794060259.977546299] [global_costmap.global_costmap]: start
+[component_container_isolated-7] [INFO] [1794060260.989723301] [planner_server]: Activating plugin GridBased of type NavfnPlanner
+[component_container_isolated-7] [INFO] [1794060261.005031065] [planner_server]: Creating bond (planner_server) to lifecycle manager.
+[rviz2-1] [INFO] [1794060261.014537858] [rviz2]: Trying to create a map of size 108 x 111 using 1 swatches
+[component_container_isolated-7] [INFO] [1794060261.124478063] [lifecycle_manager_navigation]: Server planner_server connected with bond.
+[component_container_isolated-7] [INFO] [1794060261.124606695] [lifecycle_manager_navigation]: [34m[1mActivating behavior_server[0m[0m
+[component_container_isolated-7] [INFO] [1794060261.128027250] [behavior_server]: Activating
+[component_container_isolated-7] [INFO] [1794060261.128127297] [behavior_server]: Activating spin
+[component_container_isolated-7] [INFO] [1794060261.128190008] [behavior_server]: Activating backup
+[component_container_isolated-7] [INFO] [1794060261.128235511] [behavior_server]: Activating drive_on_heading
+[component_container_isolated-7] [INFO] [1794060261.128278971] [behavior_server]: Activating assisted_teleop
+[component_container_isolated-7] [INFO] [1794060261.128321557] [behavior_server]: Activating wait
+[component_container_isolated-7] [INFO] [1794060261.128371434] [behavior_server]: Creating bond (behavior_server) to lifecycle manager.
+[component_container_isolated-7] [INFO] [1794060261.245907623] [lifecycle_manager_navigation]: Server behavior_server connected with bond.
+[component_container_isolated-7] [INFO] [1794060261.246043547] [lifecycle_manager_navigation]: [34m[1mActivating bt_navigator[0m[0m
+[component_container_isolated-7] [INFO] [1794060261.246794045] [bt_navigator]: Activating
+[component_container_isolated-7] [INFO] [1794060261.594885622] [bt_navigator]: Creating bond (bt_navigator) to lifecycle manager.
+[component_container_isolated-7] [INFO] [1794060261.707797776] [lifecycle_manager_navigation]: Server bt_navigator connected with bond.
+[component_container_isolated-7] [INFO] [1794060261.708056206] [lifecycle_manager_navigation]: [34m[1mActivating waypoint_follower[0m[0m
+[component_container_isolated-7] [INFO] [1794060261.709045883] [waypoint_follower]: Activating
+[component_container_isolated-7] [INFO] [1794060261.709244227] [waypoint_follower]: Creating bond (waypoint_follower) to lifecycle manager.
+[component_container_isolated-7] [INFO] [1794060261.835677009] [lifecycle_manager_navigation]: Server waypoint_follower connected with bond.
+[component_container_isolated-7] [INFO] [1794060261.835841226] [lifecycle_manager_navigation]: [34m[1mActivating velocity_smoother[0m[0m
+[component_container_isolated-7] [INFO] [1794060261.836705480] [velocity_smoother]: Activating
+[component_container_isolated-7] [INFO] [1794060261.836946409] [velocity_smoother]: Creating bond (velocity_smoother) to lifecycle manager.
+[component_container_isolated-7] [INFO] [1794060261.969280502] [lifecycle_manager_navigation]: Server velocity_smoother connected with bond.
+[component_container_isolated-7] [INFO] [1794060261.969739609] [lifecycle_manager_navigation]: [34m[1mManaged nodes are active[0m[0m
+[component_container_isolated-7] [INFO] [1794060261.969851615] [lifecycle_manager_navigation]: [34m[1mCreating bond timer...[0m[0m
+[rviz2-1] [INFO] [1794060265.378472903] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060258.787 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794060268.201589192] [rviz2]: Setting estimate pose: Frame:map, Position(-0.4875, -0.0437483, 0), Orientation(0, 0, -1.84727e-06, 1) = Angle: -3.69454e-06
+[component_container_isolated-7] [INFO] [1794060268.201988788] [amcl]: initialPoseReceived
+[component_container_isolated-7] [WARN] [1794060268.202163502] [amcl]: Failed to transform initial pose in time (Lookup would require extrapolation into the future.  Requested time 1794060268.202068 but the latest data is at time 1794060268.168800, when looking up transform from frame [base_footprint] to frame [odom])
+[component_container_isolated-7] [INFO] [1794060268.202198503] [amcl]: Setting pose (1794060268.202197): -0.488 -0.044 -0.000
+[rviz2-1] [INFO] [1794060272.928743317] [rviz2]: Setting estimate pose: Frame:map, Position(-0.41875, -0.0687487, 0), Orientation(0, 0, 0.0293719, 0.999569) = Angle: 0.0587523
+[component_container_isolated-7] [INFO] [1794060272.929270376] [amcl]: initialPoseReceived
+[component_container_isolated-7] [WARN] [1794060272.929445090] [amcl]: Failed to transform initial pose in time (Lookup would require extrapolation into the future.  Requested time 1794060272.929362 but the latest data is at time 1794060272.848101, when looking up transform from frame [base_footprint] to frame [odom])
+[component_container_isolated-7] [INFO] [1794060272.929479507] [amcl]: Setting pose (1794060272.929478): -0.419 -0.069 0.059
+[rviz2-1] [INFO] [1794060277.812216355] [rviz2]: Setting estimate pose: Frame:map, Position(-0.29375, -0.0562491, 0), Orientation(0, 0, -1.84658e-06, 1) = Angle: -3.69315e-06
+[component_container_isolated-7] [INFO] [1794060277.812729122] [amcl]: initialPoseReceived
+[component_container_isolated-7] [WARN] [1794060277.812889836] [amcl]: Failed to transform initial pose in time (Lookup would require extrapolation into the future.  Requested time 1794060277.812801 but the latest data is at time 1794060277.719050, when looking up transform from frame [base_footprint] to frame [odom])
+[component_container_isolated-7] [INFO] [1794060277.812926003] [amcl]: Setting pose (1794060277.812925): -0.294 -0.056 -0.000
+[rviz2-1] [INFO] [1794060283.455491294] [rviz2]: Setting estimate pose: Frame:map, Position(-0.35, -0.0312488, 0), Orientation(0, 0, -0.0063306, 0.99998) = Angle: -0.0126613
+[component_container_isolated-7] [INFO] [1794060283.456382073] [amcl]: initialPoseReceived
+[component_container_isolated-7] [WARN] [1794060283.456528495] [amcl]: Failed to transform initial pose in time (Lookup would require extrapolation into the future.  Requested time 1794060283.456457 but the latest data is at time 1794060283.398141, when looking up transform from frame [base_footprint] to frame [odom])
+[component_container_isolated-7] [INFO] [1794060283.456551537] [amcl]: Setting pose (1794060283.456550): -0.350 -0.031 -0.013
+[rviz2-1] [INFO] [1794060288.501154646] [rviz2]: Setting estimate pose: Frame:map, Position(-0.4125, -0.00624849, 0), Orientation(0, 0, -0.0277476, 0.999615) = Angle: -0.0555024
+[component_container_isolated-7] [INFO] [1794060288.503574099] [amcl]: initialPoseReceived
+[component_container_isolated-7] [WARN] [1794060288.504648051] [amcl]: Failed to transform initial pose in time (Lookup would require extrapolation into the future.  Requested time 1794060288.504554 but the latest data is at time 1794060288.478084, when looking up transform from frame [base_footprint] to frame [odom])
+[component_container_isolated-7] [INFO] [1794060288.505557205] [amcl]: Setting pose (1794060288.505554): -0.413 -0.006 -0.056
+[rviz2-1] [INFO] [1794060293.607868356] [rviz2]: Setting estimate pose: Frame:map, Position(-0.3625, -0.0437488, 0), Orientation(0, 0, 0.00847184, 0.999964) = Angle: 0.0169439
+[component_container_isolated-7] [INFO] [1794060293.608601921] [amcl]: initialPoseReceived
+[component_container_isolated-7] [WARN] [1794060293.608869097] [amcl]: Failed to transform initial pose in time (Lookup would require extrapolation into the future.  Requested time 1794060293.608719 but the latest data is at time 1794060293.549563, when looking up transform from frame [base_footprint] to frame [odom])
+[component_container_isolated-7] [INFO] [1794060293.608936474] [amcl]: Setting pose (1794060293.608932): -0.363 -0.044 0.017
+[component_container_isolated-7] [INFO] [1794060314.891266574] [bt_navigator]: Begin navigating from current location (-0.29, -0.01) to (0.01, -0.01)
+[component_container_isolated-7] [INFO] [1794060314.914547289] [controller_server]: Received a goal, begin computing control effort.
+[component_container_isolated-7] [WARN] [1794060314.914853257] [controller_server]: No goal checker was specified in parameter 'current_goal_checker'. Server will use only plugin loaded general_goal_checker . This warning will appear once.
+[component_container_isolated-7] [WARN] [1794060315.336137490] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[component_container_isolated-7] [WARN] [1794060315.471829608] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[component_container_isolated-7] [WARN] [1794060315.503030789] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[component_container_isolated-7] [INFO] [1794060316.015490693] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [WARN] [1794060316.944380922] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[component_container_isolated-7] [WARN] [1794060316.953336547] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[component_container_isolated-7] [INFO] [1794060317.015474066] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [WARN] [1794060317.053018911] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[component_container_isolated-7] [INFO] [1794060317.915629486] [controller_server]: Terminal alignment latched at 0.058 m; stopping translation
+[component_container_isolated-7] [WARN] [1794060317.992167974] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[component_container_isolated-7] [INFO] [1794060318.015473189] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [INFO] [1794060318.515637611] [controller_server]: Final turn direction locked, yaw error -2.939 rad
+[component_container_isolated-7] [INFO] [1794060319.015496980] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [INFO] [1794060320.115469769] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [INFO] [1794060321.115669608] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [INFO] [1794060322.115470891] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [WARN] [1794060322.515599228] [controller_server]: Final position moved outside alignment safety window
+[component_container_isolated-7] [WARN] [1794060322.615622437] [controller_server]: Final position moved outside alignment safety window
+[component_container_isolated-7] [WARN] [1794060322.715930530] [controller_server]: Final position moved outside alignment safety window
+[component_container_isolated-7] [ERROR] [1794060322.720406301] [controller_server]: Controller patience exceeded
+[component_container_isolated-7] [WARN] [1794060322.720912359] [controller_server]: [follow_path] [ActionServer] Aborting handle.
+[component_container_isolated-7] [INFO] [1794060322.732755869] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[component_container_isolated-7] [INFO] [1794060322.734495717] [controller_server]: Received a goal, begin computing control effort.
+[component_container_isolated-7] [WARN] [1794060322.896657445] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[component_container_isolated-7] [INFO] [1794060323.136137520] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [WARN] [1794060323.236319400] [controller_server]: Final position moved outside alignment safety window
+[component_container_isolated-7] [WARN] [1794060323.336833917] [controller_server]: Final position moved outside alignment safety window
+[component_container_isolated-7] [INFO] [1794060324.236493946] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [WARN] [1794060324.293233998] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[component_container_isolated-7] [INFO] [1794060325.236152475] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [WARN] [1794060325.736650824] [controller_server]: Final position moved outside alignment safety window
+[component_container_isolated-7] [WARN] [1794060325.844071190] [controller_server]: Final position moved outside alignment safety window
+[component_container_isolated-7] [WARN] [1794060325.937152048] [controller_server]: Final position moved outside alignment safety window
+[component_container_isolated-7] [ERROR] [1794060325.937423890] [controller_server]: Controller patience exceeded
+[component_container_isolated-7] [WARN] [1794060325.937712358] [controller_server]: [follow_path] [ActionServer] Aborting handle.
+[component_container_isolated-7] [INFO] [1794060325.954118850] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[component_container_isolated-7] [INFO] [1794060325.956176041] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[component_container_isolated-7] [INFO] [1794060326.002711220] [controller_server]: Received a goal, begin computing control effort.
+[component_container_isolated-7] [WARN] [1794060326.093154160] [controller_server]: Final position moved outside alignment safety window
+[component_container_isolated-7] [WARN] [1794060326.103536664] [controller_server]: Final position moved outside alignment safety window
+[component_container_isolated-7] [WARN] [1794060326.203238779] [controller_server]: Final position moved outside alignment safety window
+[component_container_isolated-7] [WARN] [1794060326.303156670] [controller_server]: Final position moved outside alignment safety window
+[component_container_isolated-7] [ERROR] [1794060326.303285877] [controller_server]: Controller patience exceeded
+[component_container_isolated-7] [WARN] [1794060326.303389709] [controller_server]: [follow_path] [ActionServer] Aborting handle.
+[component_container_isolated-7] [INFO] [1794060326.322788816] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[component_container_isolated-7] [INFO] [1794060326.324159050] [controller_server]: Received a goal, begin computing control effort.
+[component_container_isolated-7] [WARN] [1794060326.494571434] [controller_server]: Final position moved outside alignment safety window
+[component_container_isolated-7] [WARN] [1794060326.496207665] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[component_container_isolated-7] [WARN] [1794060326.499815248] [controller_server]: Final position moved outside alignment safety window
+[component_container_isolated-7] [WARN] [1794060326.524536626] [controller_server]: Final position moved outside alignment safety window
+[component_container_isolated-7] [WARN] [1794060326.624590082] [controller_server]: Final position moved outside alignment safety window
+[component_container_isolated-7] [ERROR] [1794060326.624822246] [controller_server]: Controller patience exceeded
+[component_container_isolated-7] [WARN] [1794060326.624977411] [controller_server]: [follow_path] [ActionServer] Aborting handle.
+[component_container_isolated-7] [INFO] [1794060326.650195783] [behavior_server]: Running spin
+[component_container_isolated-7] [INFO] [1794060326.652247926] [behavior_server]: Turning 1.57 for spin behavior.
+[component_container_isolated-7] [WARN] [1794060327.064285155] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[component_container_isolated-7] [WARN] [1794060327.676335505] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[component_container_isolated-7] [WARN] [1794060328.064334515] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[component_container_isolated-7] [WARN] [1794060328.104711793] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[component_container_isolated-7] [INFO] [1794060329.052963467] [behavior_server]: spin completed successfully
+[component_container_isolated-7] [INFO] [1794060329.095455888] [controller_server]: Received a goal, begin computing control effort.
+[component_container_isolated-7] [INFO] [1794060330.195852035] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [INFO] [1794060331.196461680] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [WARN] [1794060331.243801836] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[component_container_isolated-7] [WARN] [1794060332.104835528] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[component_container_isolated-7] [INFO] [1794060332.195817257] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [WARN] [1794060333.076586928] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[component_container_isolated-7] [INFO] [1794060333.195819743] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [INFO] [1794060333.395899573] [controller_server]: Terminal alignment latched at 0.060 m; stopping translation
+[component_container_isolated-7] [INFO] [1794060333.895899358] [controller_server]: Final turn direction locked, yaw error 2.692 rad
+[component_container_isolated-7] [INFO] [1794060334.295834103] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [INFO] [1794060335.295902713] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [INFO] [1794060336.295836367] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [INFO] [1794060337.395825435] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [INFO] [1794060338.395912337] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [INFO] [1794060339.395850740] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [INFO] [1794060340.398418238] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [INFO] [1794060341.495846170] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [INFO] [1794060342.495883239] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [INFO] [1794060343.495851725] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [WARN] [1794060344.413240926] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[component_container_isolated-7] [INFO] [1794060344.495836170] [controller_server]: Passing new path to controller.
+[rviz2-1] [INFO] [1794060344.914502530] [rviz2]: Message Filter dropping message: frame 'laser' at time 1794060258.887 for reason 'discarding message because the queue is full'
+[component_container_isolated-7] [INFO] [1794060345.595867696] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [INFO] [1794060346.595836182] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [WARN] [1794060347.303534124] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[component_container_isolated-7] [INFO] [1794060347.596133332] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [WARN] [1794060347.864495322] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[component_container_isolated-7] [WARN] [1794060347.944537637] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[component_container_isolated-7] [WARN] [1794060348.084947539] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[component_container_isolated-7] [INFO] [1794060348.595845905] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [WARN] [1794060349.054300425] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[component_container_isolated-7] [INFO] [1794060349.595862557] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [INFO] [1794060350.695860375] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [INFO] [1794060351.695838653] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [INFO] [1794060352.695859389] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [INFO] [1794060353.795835791] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [INFO] [1794060354.795884693] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [INFO] [1794060355.795977012] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [INFO] [1794060356.796160162] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [WARN] [1794060357.735148194] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[component_container_isolated-7] [INFO] [1794060357.895840067] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [ERROR] [1794060358.596711381] [controller_server]: Failed to make progress
+[component_container_isolated-7] [WARN] [1794060358.597475539] [controller_server]: [follow_path] [ActionServer] Aborting handle.
+[component_container_isolated-7] [INFO] [1794060358.614180260] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[component_container_isolated-7] [INFO] [1794060358.616373151] [controller_server]: Received a goal, begin computing control effort.
+[component_container_isolated-7] [WARN] [1794060358.736694037] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[component_container_isolated-7] [INFO] [1794060358.916597228] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [WARN] [1794060359.245458553] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[component_container_isolated-7] [INFO] [1794060359.916604214] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [INFO] [1794060360.916701740] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [WARN] [1794060361.898279483] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[component_container_isolated-7] [WARN] [1794060361.903296966] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[component_container_isolated-7] [INFO] [1794060361.916616936] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [INFO] [1794060363.016598296] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [INFO] [1794060364.016595657] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [WARN] [1794060364.148198537] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[component_container_isolated-7] [INFO] [1794060365.016603476] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [INFO] [1794060366.018912227] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [INFO] [1794060367.116596781] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [INFO] [1794060368.116630016] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [INFO] [1794060369.116597003] [controller_server]: Passing new path to controller.
+[component_container_isolated-7] [ERROR] [1794060369.444413091] [bt_navigator_navigate_to_pose_rclcpp_node]: Failed to get result for follow_path in node halt!
+[component_container_isolated-7] [INFO] [1794060369.444929918] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[component_container_isolated-7] [INFO] [1794060369.445869657] [bt_navigator]: Goal canceled
+[component_container_isolated-7] [INFO] [1794060369.516629497] [controller_server]: Goal was canceled. Stopping the robot.
+[component_container_isolated-7] [INFO] [1794060369.516895786] [controller_server]: [follow_path] [ActionServer] Client requested to cancel the goal. Cancelling.
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[INFO] [component_container_isolated-7]: sending signal 'SIGINT' to process[component_container_isolated-7]
+[INFO] [static_transform_publisher-6]: sending signal 'SIGINT' to process[static_transform_publisher-6]
+[INFO] [static_transform_publisher-5]: sending signal 'SIGINT' to process[static_transform_publisher-5]
+[INFO] [dianshu_base-4]: sending signal 'SIGINT' to process[dianshu_base-4]
+[INFO] [static_transform_publisher-3]: sending signal 'SIGINT' to process[static_transform_publisher-3]
+[INFO] [sllidar_node-2]: sending signal 'SIGINT' to process[sllidar_node-2]
+[INFO] [rviz2-1]: sending signal 'SIGINT' to process[rviz2-1]
+[component_container_isolated-7] [INFO] [1794060528.851577981] [rclcpp]: signal_handler(signum=2)
+[component_container_isolated-7] [INFO] [1794060528.851714771] [lifecycle_manager_navigation]: Running Nav2 LifecycleManager rcl preshutdown (lifecycle_manager_navigation)
+[component_container_isolated-7] [INFO] [1794060528.851953934] [lifecycle_manager_navigation]: [34m[1mTerminating bond timer...[0m[0m
+[static_transform_publisher-6] [INFO] [1794060528.853472911] [rclcpp]: signal_handler(signum=2)
+[static_transform_publisher-5] [INFO] [1794060528.855527965] [rclcpp]: signal_handler(signum=2)
+[static_transform_publisher-3] [INFO] [1794060528.862303573] [rclcpp]: signal_handler(signum=2)
+[rviz2-1] [INFO] [1794060528.869671256] [rclcpp]: signal_handler(signum=2)
+[INFO] [static_transform_publisher-3]: process has finished cleanly [pid 4484]
+[INFO] [static_transform_publisher-5]: process has finished cleanly [pid 4488]
+[sllidar_node-2] [INFO] [1794060529.030633594] [sllidar_node]: Stop motor
+[INFO] [static_transform_publisher-6]: process has finished cleanly [pid 4490]
+[ERROR] [rviz2-1]: process has died [pid 4480, exit code -11, cmd '/opt/ros/humble/lib/rviz2/rviz2 -d /home/orangepi/dianshu/install/dianshu_nav/share/dianshu_nav/rviz/navigation.rviz --ros-args -r __node:=rviz2 --params-file /tmp/launch_params_q54ub9q8'].
+[component_container_isolated-7] [INFO] [1794060529.133285332] [local_costmap.local_costmap]: Message Filter dropping message: frame 'laser' at time 1794060528.734 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[INFO] [sllidar_node-2]: process has finished cleanly [pid 4482]
+[component_container_isolated-7] [INFO] [1794060529.203003430] [velocity_smoother]: Running Nav2 LifecycleNode rcl preshutdown (velocity_smoother)
+[component_container_isolated-7] [INFO] [1794060529.203192427] [velocity_smoother]: Deactivating
+[component_container_isolated-7] [INFO] [1794060529.203271176] [velocity_smoother]: Destroying bond (velocity_smoother) to lifecycle manager.
+[INFO] [dianshu_base-4]: process has finished cleanly [pid 4486]
+[component_container_isolated-7] [INFO] [1794060529.213580566] [velocity_smoother]: Cleaning up
+[component_container_isolated-7] [INFO] [1794060529.213707439] [velocity_smoother]: Destroying bond (velocity_smoother) to lifecycle manager.
+[component_container_isolated-7] [INFO] [1794060529.213736897] [waypoint_follower]: Running Nav2 LifecycleNode rcl preshutdown (waypoint_follower)
+[component_container_isolated-7] [INFO] [1794060529.213791730] [waypoint_follower]: Deactivating
+[component_container_isolated-7] [INFO] [1794060529.213823229] [waypoint_follower]: Destroying bond (waypoint_follower) to lifecycle manager.
+[component_container_isolated-7] [INFO] [1794060529.224046287] [waypoint_follower]: Cleaning up
+[component_container_isolated-7] [INFO] [1794060529.303187705] [waypoint_follower]: Destroying bond (waypoint_follower) to lifecycle manager.
+[component_container_isolated-7] [INFO] [1794060529.303263245] [behavior_server]: Running Nav2 LifecycleNode rcl preshutdown (behavior_server)
+[component_container_isolated-7] [INFO] [1794060529.303305244] [behavior_server]: Deactivating
+[component_container_isolated-7] [INFO] [1794060529.303383410] [behavior_server]: Destroying bond (behavior_server) to lifecycle manager.
+[component_container_isolated-7] [INFO] [1794060529.313593051] [behavior_server]: Cleaning up
+[component_container_isolated-7] [INFO] [1794060529.359313920] [behavior_server]: Destroying bond (behavior_server) to lifecycle manager.
+[component_container_isolated-7] [INFO] [1794060529.359399668] [planner_server]: Running Nav2 LifecycleNode rcl preshutdown (planner_server)
+[component_container_isolated-7] [INFO] [1794060529.359445751] [planner_server]: Deactivating
+[component_container_isolated-7] [INFO] [1794060529.359587207] [global_costmap.global_costmap]: Deactivating
+[component_container_isolated-7] [INFO] [1794060529.930817419] [amcl]: Message Filter dropping message: frame 'laser' at time 1794060528.832 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[component_container_isolated-7] [INFO] [1794060529.978190221] [planner_server]: Deactivating plugin GridBased of type NavfnPlanner
+[component_container_isolated-7] [INFO] [1794060529.978482467] [planner_server]: Destroying bond (planner_server) to lifecycle manager.
+[component_container_isolated-7] [INFO] [1794060529.988880522] [planner_server]: Cleaning up
+[component_container_isolated-7] [INFO] [1794060530.063546631] [global_costmap.global_costmap]: Cleaning up
+[component_container_isolated-7] [INFO] [1794060530.080281051] [planner_server]: Cleaning up plugin GridBased of type NavfnPlanner
+[component_container_isolated-7] [INFO] [1794060530.080527506] [planner_server]: Destroying plugin GridBased of type NavfnPlanner
+[component_container_isolated-7] [INFO] [1794060530.128447341] [planner_server]: Destroying bond (planner_server) to lifecycle manager.
+[component_container_isolated-7] [INFO] [1794060530.128628172] [lifecycle_manager_localization]: Running Nav2 LifecycleManager rcl preshutdown (lifecycle_manager_localization)
+[component_container_isolated-7] [INFO] [1794060530.128722962] [lifecycle_manager_localization]: [34m[1mTerminating bond timer...[0m[0m
+[component_container_isolated-7] [INFO] [1794060530.178879557] [smoother_server]: Running Nav2 LifecycleNode rcl preshutdown (smoother_server)
+[component_container_isolated-7] [INFO] [1794060530.180361868] [smoother_server]: Deactivating
+[component_container_isolated-7] [INFO] [1794060530.181408353] [smoother_server]: Destroying bond (smoother_server) to lifecycle manager.
+[component_container_isolated-7] [INFO] [1794060530.192488315] [smoother_server]: Cleaning up
+[component_container_isolated-7] [INFO] [1794060530.241829838] [smoother_server]: Destroying bond (smoother_server) to lifecycle manager.
+[component_container_isolated-7] [INFO] [1794060530.241906254] [bt_navigator]: Running Nav2 LifecycleNode rcl preshutdown (bt_navigator)
+[component_container_isolated-7] [INFO] [1794060530.241961961] [bt_navigator]: Deactivating
+[component_container_isolated-7] [INFO] [1794060530.242007461] [bt_navigator]: Destroying bond (bt_navigator) to lifecycle manager.
+[component_container_isolated-7] [INFO] [1794060530.252215060] [bt_navigator]: Cleaning up
+[component_container_isolated-7] [INFO] [1794060530.414383422] [bt_navigator]: Completed Cleaning up
+[component_container_isolated-7] [INFO] [1794060530.414463920] [bt_navigator]: Destroying bond (bt_navigator) to lifecycle manager.
+[component_container_isolated-7] [INFO] [1794060530.414481129] [amcl]: Running Nav2 LifecycleNode rcl preshutdown (amcl)
+[component_container_isolated-7] [INFO] [1794060530.414510586] [amcl]: Deactivating
+[component_container_isolated-7] [INFO] [1794060530.414540044] [amcl]: Destroying bond (amcl) to lifecycle manager.
+[component_container_isolated-7] [INFO] [1794060530.424673853] [amcl]: Cleaning up
+[component_container_isolated-7] [INFO] [1794060530.438483608] [amcl]: Destroying bond (amcl) to lifecycle manager.
+[component_container_isolated-7] [INFO] [1794060530.438576940] [controller_server]: Running Nav2 LifecycleNode rcl preshutdown (controller_server)
+[component_container_isolated-7] [INFO] [1794060530.438657439] [controller_server]: Deactivating
+[component_container_isolated-7] [INFO] [1794060530.438720730] [controller_server]: Deactivating controller: FollowPath of type regulated_pure_pursuit_controller::RegulatedPurePursuitController
+[component_container_isolated-7] [INFO] [1794060530.438802104] [local_costmap.local_costmap]: Deactivating
+[component_container_isolated-7] [INFO] [1794060530.485086839] [controller_server]: Destroying bond (controller_server) to lifecycle manager.
+[component_container_isolated-7] [INFO] [1794060530.495458894] [controller_server]: Cleaning up
+[component_container_isolated-7] [INFO] [1794060530.495539976] [controller_server]: Cleaning up controller: FollowPath of type regulated_pure_pursuit_controller::RegulatedPurePursuitController
+[component_container_isolated-7] [INFO] [1794060530.495974553] [local_costmap.local_costmap]: Cleaning up
+[component_container_isolated-7] [INFO] [1794060530.585920020] [controller_server]: Destroying bond (controller_server) to lifecycle manager.
+[component_container_isolated-7] [INFO] [1794060530.586030560] [map_server]: Running Nav2 LifecycleNode rcl preshutdown (map_server)
+[component_container_isolated-7] [INFO] [1794060530.586115726] [map_server]: Deactivating
+[component_container_isolated-7] [INFO] [1794060530.586172600] [map_server]: Destroying bond (map_server) to lifecycle manager.
+[component_container_isolated-7] [INFO] [1794060530.596379033] [map_server]: Cleaning up
+[component_container_isolated-7] [INFO] [1794060530.596463615] [map_server]: Destroying bond (map_server) to lifecycle manager.
+[ERROR] [component_container_isolated-7]: process[component_container_isolated-7] failed to terminate '5' seconds after receiving 'SIGINT', escalating to 'SIGTERM'
+[INFO] [component_container_isolated-7]: sending signal 'SIGTERM' to process[component_container_isolated-7]
+[component_container_isolated-7] [INFO] [1794060533.857537334] [rclcpp]: signal_handler(signum=15)
+[ERROR] [component_container_isolated-7]: process[component_container_isolated-7] failed to terminate '10.0' seconds after receiving 'SIGTERM', escalating to 'SIGKILL'
+[INFO] [component_container_isolated-7]: sending signal 'SIGKILL' to process[component_container_isolated-7]
+[ERROR] [component_container_isolated-7]: process has died [pid 4584, exit code -9, cmd '/opt/ros/humble/lib/rclcpp_components/component_container_isolated --ros-args --log-level info --ros-args -r __node:=nav2_container --params-file /tmp/launch_params_hzw576u9 --params-file /tmp/launch_params_f98s0gjf -r /tf:=tf -r /tf_static:=tf_static'].

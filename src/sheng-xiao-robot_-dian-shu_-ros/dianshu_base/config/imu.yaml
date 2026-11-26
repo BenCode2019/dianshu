@@ -1,0 +1,12 @@
+/**:
+  ros__parameters:
+    # Match mpu6050_init() in the B20 firmware: +/-2000 deg/s and +/-2 g.
+    imu_gyro_lsb_per_dps: 16.4
+    imu_accel_lsb_per_g: 16384.0
+    # Sensor-frame biases in ROS units (rad/s and m/s^2), subtracted on output.
+    imu_angular_velocity_bias: [0.0, 0.0, 0.0]
+    imu_linear_acceleration_bias: [0.0, 0.0, 0.0]
+    # XYZ variances in (rad/s)^2 and (m/s^2)^2. Zeros mean unknown.
+    # Replace with measured values before configuring EKF measurement noise.
+    imu_angular_velocity_covariance_diagonal: [0.0, 0.0, 0.0]
+    imu_linear_acceleration_covariance_diagonal: [0.0, 0.0, 0.0]
